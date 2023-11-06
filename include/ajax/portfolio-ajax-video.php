@@ -6,79 +6,83 @@ $postid = isset( $_POST['portid'] ) ? $_POST['portid'] : '';
 
 ?>
 
-<div id="portfolio-ajax-single" class="clearfix">
+<div id="portfolio-ajax-single" class="border border-default rounded-6 overflow-hidden">
 
-    <div id="portfolio-ajax-title" style="position: relative;">
-        <h2>Single Item with Video</h2>
-        <div id="portfolio-navigation">
-            <?php if( $previd ){ ?><a href="#" id="prev-portfolio" data-id="<?php echo $previd; ?>"><i class="icon-angle-left"></i></a><?php } ?>
-            <?php if( $nextid ){ ?><a href="#" id="next-portfolio" data-id="<?php echo $nextid; ?>"><i class="icon-angle-right"></i></a><?php } ?>
-            <a href="#" id="close-portfolio"><i class="icon-line-cross"></i></a>
-        </div>
-    </div>
+	<div class="d-flex align-items-center justify-content-between position-relative bg-light border-bottom border-default py-4 px-5 mb-5">
+		<h2 class="fs-3 fw-medium mb-0">Single Item with Video</h2>
+		<div class="d-flex">
+			<?php if( $previd ){ ?><a href="#" id="prev-portfolio" class="fs-4 text-dark h-text-color me-3" data-id="<?php echo $previd; ?>"><i class="bi-chevron-left"></i></a><?php } ?>
+			<?php if( $nextid ){ ?><a href="#" id="next-portfolio" class="fs-4 text-dark h-text-color me-3" data-id="<?php echo $nextid; ?>"><i class="bi-chevron-right"></i></a><?php } ?>
+			<a href="#" id="close-portfolio" class="fs-4 text-dark h-text-color"><i class="bi-x-circle"></i></a>
+		</div>
+	</div>
 
-    <div class="line line-sm topmargin-sm"></div>
+	<div class="px-5">
+		<div class="row gx-4 gy-5 pb-5">
 
-    <!-- Portfolio Single Content
-    ============================================= -->
-    <div class="col_two_fifth portfolio-single-content nobottommargin">
+			<!-- Portfolio Single Image
+			============================================= -->
+			<div class="col-lg-7 col-xl-8 portfolio-single-image">
+				<iframe src="https://player.vimeo.com/video/80975867" class="rounded-6" width="500" height="281" allow="autoplay; fullscreen" allowfullscreen></iframe>
+			</div><!-- .portfolio-single-image end -->
 
-        <!-- Portfolio Single - Description
-        ============================================= -->
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis, dolores, facere, corrupti delectus ex quidem adipisci tempore. Illum molestias cupiditate eveniet dolore obcaecati voluptatibus est.</p>
-        <!-- Portfolio Single - Description End -->
+			<!-- Portfolio Single Content
+			============================================= -->
+			<div class="col-lg-5 col-xl-4 portfolio-single-content px-4 ps-xl-4 pt-xl-4">
 
-        <div class="line" style="margin: 40px 0;"></div>
+				<!-- Portfolio Single - Description
+				============================================= -->
+				<h2 class="fs-3 fw-bold">About this Project</h2>
 
-        <!-- Portfolio Single - Meta
-        ============================================= -->
-        <ul class="portfolio-meta bottommargin">
-            <li><span><i class="icon-user"></i>Created by:</span> John Doe</li>
-            <li><span><i class="icon-calendar3"></i>Completed on:</span> 17th March 2014</li>
-            <li><span><i class="icon-lightbulb"></i>Skills:</span> HTML5 / PHP / CSS3</li>
-            <li><span><i class="icon-link"></i>Client:</span> <a href="#">Google</a></li>
-        </ul>
-        <!-- Portfolio Single - Meta End -->
+				<p>Illum molestias cupiditate eveniet dolore obcaecati voluptatibus est quos eos id recusandae officia. Cupiditate, voluptates quibusdam ipsum vel corporis laboriosam id est doloremque?</p>
 
-        <!-- Portfolio Single - Share
-        ============================================= -->
-        <div class="si-share clearfix">
-            <span>Share:</span>
-            <div>
-                <a href="#" class="social-icon si-borderless si-facebook">
-                    <i class="icon-facebook"></i>
-                    <i class="icon-facebook"></i>
-                </a>
-                <a href="#" class="social-icon si-borderless si-twitter">
-                    <i class="icon-twitter"></i>
-                    <i class="icon-twitter"></i>
-                </a>
-                <a href="#" class="social-icon si-borderless si-pinterest">
-                    <i class="icon-pinterest"></i>
-                    <i class="icon-pinterest"></i>
-                </a>
-                <a href="#" class="social-icon si-borderless si-gplus">
-                    <i class="icon-gplus"></i>
-                    <i class="icon-gplus"></i>
-                </a>
-                <a href="#" class="social-icon si-borderless si-rss">
-                    <i class="icon-rss"></i>
-                    <i class="icon-rss"></i>
-                </a>
-                <a href="#" class="social-icon si-borderless si-email3">
-                    <i class="icon-email3"></i>
-                    <i class="icon-email3"></i>
-                </a>
-            </div>
-        </div>
-        <!-- Portfolio Single - Share End -->
+				<a href="#" class="text-medium">Visit this Project <i class="bi-arrow-up-right-circle-fill ms-1 align-middle fs-5 position-relative" style="top:-2px;"></i></a>
 
-    </div><!-- .portfolio-single-content end -->
+				<!-- Portfolio Single - Share
+				============================================= -->
+				<div class="card mt-6 pt-4 border-0 border-top rounded-0 border-default bg-transparent">
+					<div class="card-body p-0">
+						<div class="d-flex align-items-center justify-content-between">
+							<h6 class="fs-6 fw-semibold mb-0">Share:</h6>
+							<div class="d-flex">
+								<a href="#" class="social-icon si-small text-white border-transparent rounded-circle bg-facebook" title="Facebook">
+									<i class="fa-brands fa-facebook-f"></i>
+									<i class="fa-brands fa-facebook-f"></i>
+								</a>
 
-    <!-- Portfolio Single Image
-    ============================================= -->
-    <div class="col_three_fifth portfolio-single-image nobottommargin col_last">
-        <iframe src="http://player.vimeo.com/video/80975867" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-    </div><!-- .portfolio-single-image end -->
+								<a href="#" class="social-icon si-small text-white border-transparent rounded-circle bg-twitter" title="Twitter">
+									<i class="fa-brands fa-twitter"></i>
+									<i class="fa-brands fa-twitter"></i>
+								</a>
+
+								<a href="#" class="social-icon si-small text-white border-transparent rounded-circle bg-pinterest" title="Pinterest">
+									<i class="fa-brands fa-pinterest-p"></i>
+									<i class="fa-brands fa-pinterest-p"></i>
+								</a>
+
+								<a href="#" class="social-icon si-small text-white border-transparent rounded-circle bg-whatsapp" title="Whatsapp">
+									<i class="fa-brands fa-whatsapp"></i>
+									<i class="fa-brands fa-whatsapp"></i>
+								</a>
+
+								<a href="#" class="social-icon si-small text-white border-transparent rounded-circle bg-rss" title="RSS">
+									<i class="fa-solid fa-rss"></i>
+									<i class="fa-solid fa-rss"></i>
+								</a>
+
+								<a href="#" class="social-icon si-small text-white border-transparent rounded-circle bg-email3 me-0" title="Mail">
+									<i class="fa-solid fa-envelope"></i>
+									<i class="fa-solid fa-envelope"></i>
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- Portfolio Single - Share End -->
+
+			</div><!-- .portfolio-single-content end -->
+
+		</div>
+	</div>
 
 </div>

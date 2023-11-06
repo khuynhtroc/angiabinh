@@ -6,80 +6,110 @@ $postid = isset( $_POST['portid'] ) ? $_POST['portid'] : '';
 
 ?>
 
-<div id="portfolio-ajax-single" class="clearfix">
+<div id="portfolio-ajax-single" class="border border-default rounded-6 overflow-hidden">
 
-    <div id="portfolio-ajax-title" style="position: relative;">
-        <h2>Single Item with Image</h2>
-        <div id="portfolio-navigation">
-            <?php if( $previd ){ ?><a href="#" id="prev-portfolio" data-id="<?php echo $previd; ?>"><i class="icon-angle-left"></i></a><?php } ?>
-            <?php if( $nextid ){ ?><a href="#" id="next-portfolio" data-id="<?php echo $nextid; ?>"><i class="icon-angle-right"></i></a><?php } ?>
-            <a href="#" id="close-portfolio"><i class="icon-line-cross"></i></a>
-        </div>
-    </div>
+	<div class="d-flex align-items-center justify-content-between position-relative bg-contrast-100 border-bottom border-default py-4 px-5 mb-5">
+		<h2 class="fs-3 fw-medium mb-0">Single Item with Image</h2>
+		<div class="d-flex">
+			<?php if( $previd ){ ?><a href="#" id="prev-portfolio" class="fs-4 text-contrast-900 h-text-color me-3" data-id="<?php echo $previd; ?>"><i class="bi-chevron-left"></i></a><?php } ?>
+			<?php if( $nextid ){ ?><a href="#" id="next-portfolio" class="fs-4 text-contrast-900 h-text-color me-3" data-id="<?php echo $nextid; ?>"><i class="bi-chevron-right"></i></a><?php } ?>
+			<a href="#" id="close-portfolio" class="fs-4 text-contrast-900 h-text-color"><i class="bi-x-circle"></i></a>
+		</div>
+	</div>
 
-    <div class="line line-sm topmargin-sm"></div>
+	<div class="px-5">
+		<div class="row gx-4 gy-5 pb-5">
 
-    <!-- Portfolio Single Image
-    ============================================= -->
-    <div class="col_three_fifth portfolio-single-image nobottommargin">
-        <a href="#"><img src="images/portfolio/single/1.jpg" alt=""></a>
-    </div><!-- .portfolio-single-image end -->
+			<!-- Portfolio Single Image
+			============================================= -->
+			<div class="col-lg-7 col-xl-8 portfolio-single-image">
+				<a href="#">
+					<img src="https://source.unsplash.com/yTWq8n3-4k0/900x900" alt="Image" class="rounded-6">
+				</a>
+			</div><!-- .portfolio-single-image end -->
 
-    <!-- Portfolio Single Content
-    ============================================= -->
-    <div class="col_two_fifth portfolio-single-content col_last nobottommargin">
+			<!-- Portfolio Single Content
+			============================================= -->
+			<div class="col-lg-5 col-xl-4 portfolio-single-content px-4 ps-xl-4 pt-xl-4">
 
-        <!-- Portfolio Single - Description
-        ============================================= -->
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis, dolores, facere, corrupti delectus ex quidem adipisci tempore.</p>
-        <p>Illum molestias cupiditate eveniet dolore obcaecati voluptatibus est quos eos id recusandae officia. Cupiditate, voluptates quibusdam ipsum vel corporis laboriosam id est doloremque.</p>
-        <!-- Portfolio Single - Description End -->
+				<!-- Portfolio Single - Description
+				============================================= -->
+				<h2 class="fs-3 fw-bold">About this Project</h2>
 
-        <div class="line" style="margin: 40px 0;"></div>
+				<p>Illum molestias cupiditate eveniet dolore obcaecati voluptatibus est quos eos id recusandae officia. Cupiditate, voluptates quibusdam ipsum vel corporis laboriosam id est doloremque?</p>
+				<!-- Portfolio Single - Description End -->
 
-        <!-- Portfolio Single - Meta
-        ============================================= -->
-        <ul class="portfolio-meta bottommargin">
-            <li><span><i class="icon-user"></i>Created by:</span> John Doe</li>
-            <li><span><i class="icon-calendar3"></i>Completed on:</span> 17th March 2014</li>
-            <li><span><i class="icon-lightbulb"></i>Skills:</span> HTML5 / PHP / CSS3</li>
-            <li><span><i class="icon-link"></i>Client:</span> <a href="#">Google</a></li>
-        </ul>
-        <!-- Portfolio Single - Meta End -->
+				<!-- Portfolio Single - Meta
+				============================================= -->
+				<div class="row g-4 mt-4 mb-6">
+					<div class="col-6">
+						<h5 class="mb-2">Created by</h5>
+						<p class="text-medium op-08 mb-0">John Doe</p>
+					</div>
 
-        <!-- Portfolio Single - Share
-        ============================================= -->
-        <div class="si-share clearfix">
-            <span>Share:</span>
-            <div>
-                <a href="#" class="social-icon si-borderless si-facebook">
-                    <i class="icon-facebook"></i>
-                    <i class="icon-facebook"></i>
-                </a>
-                <a href="#" class="social-icon si-borderless si-twitter">
-                    <i class="icon-twitter"></i>
-                    <i class="icon-twitter"></i>
-                </a>
-                <a href="#" class="social-icon si-borderless si-pinterest">
-                    <i class="icon-pinterest"></i>
-                    <i class="icon-pinterest"></i>
-                </a>
-                <a href="#" class="social-icon si-borderless si-gplus">
-                    <i class="icon-gplus"></i>
-                    <i class="icon-gplus"></i>
-                </a>
-                <a href="#" class="social-icon si-borderless si-rss">
-                    <i class="icon-rss"></i>
-                    <i class="icon-rss"></i>
-                </a>
-                <a href="#" class="social-icon si-borderless si-email3">
-                    <i class="icon-email3"></i>
-                    <i class="icon-email3"></i>
-                </a>
-            </div>
-        </div>
-        <!-- Portfolio Single - Share End -->
+					<div class="col-6">
+						<h5 class="mb-2">Completed on</h5>
+						<p class="text-medium op-08 mb-0">17th March 2022</p>
+					</div>
 
-    </div><!-- .portfolio-single-content end -->
+					<div class="col-6">
+						<h5 class="mb-2">Skills</h5>
+						<div><a href="#" class="badge bg-color h-bg-dark h-text-light all-ts py-2 px-3">HTML</a> <a href="#" class="badge bg-color h-bg-dark h-text-light all-ts py-2 px-3">CSS3</a></div>
+					</div>
+
+					<div class="col-6">
+						<h5 class="mb-2">Client</h5>
+						<p class="text-medium op-08 mb-0"><a href="#">Google Inc.</a></p>
+					</div>
+				</div>
+
+				<a href="#" class="text-medium">Visit this Project <i class="bi-arrow-up-right-circle-fill ms-1 align-middle fs-5 position-relative" style="top:-2px;"></i></a>
+
+				<!-- Portfolio Single - Share
+				============================================= -->
+				<div class="card mt-6 pt-4 border-0 border-top rounded-0 border-default bg-transparent">
+					<div class="card-body p-0">
+						<div class="d-flex align-items-center justify-content-between">
+							<h6 class="fs-6 fw-semibold mb-0">Share:</h6>
+							<div class="d-flex">
+								<a href="#" class="social-icon si-small text-white border-transparent rounded-circle bg-facebook" title="Facebook">
+									<i class="fa-brands fa-facebook-f"></i>
+									<i class="fa-brands fa-facebook-f"></i>
+								</a>
+
+								<a href="#" class="social-icon si-small text-white border-transparent rounded-circle bg-twitter" title="Twitter">
+									<i class="fa-brands fa-twitter"></i>
+									<i class="fa-brands fa-twitter"></i>
+								</a>
+
+								<a href="#" class="social-icon si-small text-white border-transparent rounded-circle bg-pinterest" title="Pinterest">
+									<i class="fa-brands fa-pinterest-p"></i>
+									<i class="fa-brands fa-pinterest-p"></i>
+								</a>
+
+								<a href="#" class="social-icon si-small text-white border-transparent rounded-circle bg-whatsapp" title="Whatsapp">
+									<i class="fa-brands fa-whatsapp"></i>
+									<i class="fa-brands fa-whatsapp"></i>
+								</a>
+
+								<a href="#" class="social-icon si-small text-white border-transparent rounded-circle bg-rss" title="RSS">
+									<i class="fa-solid fa-rss"></i>
+									<i class="fa-solid fa-rss"></i>
+								</a>
+
+								<a href="#" class="social-icon si-small text-white border-transparent rounded-circle bg-email3 me-0" title="Mail">
+									<i class="fa-solid fa-envelope"></i>
+									<i class="fa-solid fa-envelope"></i>
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- Portfolio Single - Share End -->
+
+			</div><!-- .portfolio-single-content end -->
+
+		</div>
+	</div>
 
 </div>

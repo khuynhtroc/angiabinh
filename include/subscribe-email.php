@@ -1,6 +1,9 @@
 <?php
 
-require_once('phpmailer/PHPMailerAutoload.php');
+use PHPMailer\PHPMailer\PHPMailer;
+
+require 'phpmailer/src/PHPMailer.php';
+require 'phpmailer/src/SMTP.php';
 
 $toemails = array();
 
@@ -43,7 +46,7 @@ if( isset( $_POST['widget-subscribe-form-email'] ) ) {
 		if( $sendEmail == true ):
 			echo '{ "alert": "success", "message": "' . $message_success . '" }';
 		else:
-			echo '{ "alert": "error", "message": "Email <strong>could not</strong> be sent due to some Unexpected Error. Please Try Again later.<br /><br /><strong>Reason:</strong><br />' . $mail->ErrorInfo . '" }';
+			echo '{ "alert": "error", "message": "Email <strong>could not</strong> be sent due to some Unexpected Error. Please Try Again later.<br><br><strong>Reason:</strong><br>' . $mail->ErrorInfo . '" }';
 		endif;
 	} else {
 		echo '{ "alert": "error", "message": "Please <strong>Fill up</strong> all the Fields and Try Again." }';

@@ -25,7 +25,7 @@ if( isset( $email ) AND $email != '' ) {
 	if($result->was_successful()) {
 		echo '{ "alert": "success", "message": "You have been <strong>successfully</strong> subscribed to our Email List." }';
 	} else {
-		echo '{ "alert": "error", "message": "Failed with code ' . $result->http_status_code . "\n<br /><pre>";
+		echo '{ "alert": "error", "message": "Failed with code ' . $result->http_status_code . "\n<br><pre>";
 		var_dump($result->response);
 		echo '</pre>" }';
 	}

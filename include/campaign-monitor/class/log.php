@@ -13,7 +13,7 @@ class CS_REST_Log {
 
     function log_message($message, $module, $level) {
         if($this->_level >= $level) {
-            echo date('G:i:s').' - '.$module.': '.$message."<br />\n";
+            echo date('G:i:s').' - '.$module.': '.$message."<br>\n";
         }
     }
 }

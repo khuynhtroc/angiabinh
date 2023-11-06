@@ -1,25 +1,25 @@
-name: "Tân Bình Chi - Sứ Mệnh Sức Khỏe Xanh"
-title: "Tân Bình Chi"
-slogan: "Sứ Mệnh Sức Khỏe Xanh"
+name: "Bê Tông Thương Phẩm An Gia Bình"
+title: "Bê Tông An Gia Bình"
+slogan: "Bê Tông Thương Phẩm Số 1 Ninh Bình"
 description: ""
 email: "darius@tanbinhchi.vn"
-url: "https://khuynhtroc.github.io/tanbinhchi.vn"
+url: ""
 # url: ""
-baseurl: "https://khuynhtroc.github.io/tanbinhchi.vn"
+baseurl: ""
 phone: "+84985629621"
 allow_search_engine: false
 # paypal: ""
-google_verify: "8CTu9td7kiJgmzxJ99UHTAsPOndqk1bM40XE5MKmSY8"
+google_verify: ""
 bing_verify: 
-google_analytics: "UA-108819307-5"
-google_tag_manager_id: "GTM-W3PFMBX"
+google_analytics: ""
+google_tag_manager_id: ""
 google_plus: 
 subcriber_url: ""
 # Build Settings
 markdown: "kramdown"
 highlighter: rouge
 encoding: "UTF-8"
-support_url: "https://khuynhtroc.github.io/tanbinhchi.vn/lien-he/"
+support_url: "/lien-he/"
 # kramdown:
 #   input: GFM
 #   syntax_highlighter: rouge
