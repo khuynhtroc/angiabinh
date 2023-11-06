@@ -4,7 +4,7 @@
 	{% include head.html %}
 </head>
 
-<body class="no-transition stretched sticky-responsive-menu">
+<body class="stretched">
 
 	{% include _after_body.html %}
 	
@@ -13,6 +13,8 @@
 	<!-- Document Wrapper
 	============================================= -->
 	<div id="wrapper" class="clearfix">
+
+		{% include before_header.html %}
 
 		{% include header.html %}
 
@@ -36,10 +38,6 @@
 
 
 	{% include script.html %}
-
-	{% include footer_script.html %}
-
-	{% include _before_end_body.html %}
 
 </body>
 </html>

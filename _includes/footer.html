@@ -1,193 +1,132 @@
 		<!-- Footer
 		============================================= -->
 		<footer id="footer" class="dark">
-
 			<div class="container">
 
 				<!-- Footer Widgets
 				============================================= -->
-				<div class="footer-widgets-wrap clearfix">
+				<div class="footer-widgets-wrap">
 
-					<div class="col_one_fourth">
+					<div class="row">
+						<div class="col-lg-9">
+							<div class="widget">
 
-						<div class="widget clearfix">
+								<img src="images/footer-widget-logo.png" alt="Image" class="alignleft" style="margin-top: 8px; padding-right: 18px; border-right: 1px solid #4A4A4A;">
 
-							<a href="{{ site.url }}"><img src="{{ site.url }}/images/footer-widget-logo.png" alt="Logo Tân Bình Chi" style="/*margin-top: 8px; padding-right: 18px; border-right: 1px solid #4A4A4A;*/"></a>
+								<p>We believe in <strong>Simple</strong>, <strong>Creative</strong> &amp; <strong>Flexible</strong> Design Standards with a Retina &amp; Responsive Approach. Browse the amazing Features this template offers.</p>
 
-							<!--p>Chúng tôi tin rằng món quà lớn nhất mà bạn có thể trao cho gia đình chính là sức khỏe của bạn!</p-->
+								<div class="line" style="margin: 30px 0;"></div>
 
-							<div class="line" style="margin: 30px 0;"></div>
+								<div class="row col-mb-30">
+									<div class="col-lg-3 col-6 widget_links">
+										<ul>
+											<li><a href="#">Home</a></li>
+											<li><a href="#">About</a></li>
+											<li><a href="#">FAQs</a></li>
+											<li><a href="#">Support</a></li>
+											<li><a href="#">Contact</a></li>
+										</ul>
+									</div>
 
-							<div style="background: url('{{ site.url }}/images/world-map.png') no-repeat center center; background-size: 100%;">
-								<address>
-									<strong>TRỤ SỞ:</strong><br>
-									Vương Thừa Vũ<br>
-									Phường Khương Mai, Quận Thanh Xuân, TP. Hà Nội<br>
-								</address>
-								<abbr title="Phone Number"><strong>Phone:</strong></abbr> <a href="tel:0939878282">093 987 82 82</a><br>
-								<abbr title="Fax"><strong>Mobile:</strong></abbr> <a href="tel:0985629621">0985 629 621</a><br>
-								<abbr title="Email Address"><strong>Email:</strong></abbr> <a href="mailto:info@tanbinhchi.vn">info@tanbinhchi.vn</a><br>
-								<abbr title="Skype"><strong>Skype:</strong></abbr> <a href="skype:tanbinhchi">tanbinhchi</a><br>
-							</div>
-						
-						</div>
+									<div class="col-lg-3 col-6 widget_links">
+										<ul>
+											<li><a href="#">Shop</a></li>
+											<li><a href="#">Portfolio</a></li>
+											<li><a href="#">Blog</a></li>
+											<li><a href="#">Events</a></li>
+											<li><a href="#">Forums</a></li>
+										</ul>
+									</div>
 
-					</div>
+									<div class="col-lg-3 col-6 widget_links">
+										<ul>
+											<li><a href="#">Corporate</a></li>
+											<li><a href="#">Agency</a></li>
+											<li><a href="#">eCommerce</a></li>
+											<li><a href="#">Personal</a></li>
+											<li><a href="#">One Page</a></li>
+										</ul>
+									</div>
 
-					<div class="col_one_fourth">
-
-						<div class="widget widget_links clearfix">
-
-							<h4>Sản Phẩm Tân Bình Chi</h4>
-
-							<ul>
-								<li><a href="{{ site.url }}/tra-ngu-ngon-binh-chi/">Trà Ngủ Ngon</a></li>
-								<li><a href="{{ site.url }}/binh-chi-tra-hoa/">Trà Hoa</a></li>
-								<!--li><a href="{{ site.url }}/tra-que-ot-binh-chi/">Trà Quế Ớt</a></li-->
-							</ul>
-
-						</div>
-
-					</div>
-
-					<div class="col_one_fourth">
-
-						<div class="widget widget_links clearfix">
-
-							<h4>Bài viết mới nhất</h4>
-
-							<div class="row">
-								{% for post in site.categories.tin-tuc limit:5 %}
-    							    <div class="ipost clearfix">
-    							        <div class="entry-title">
-    							            <ul>
-    							            	<li><a href="{{ site.url }}{{ post.url }}">{{ post.title }}</a></li>
-    							            </ul>
-    							        </div>
-    							    </div>
-    							{% endfor %}
-							</div>
-
-						</div>
-
-						<!--<div class="widget clearfix">
-							<h4>Bài viết mới nhất</h4>
-
-							<div class="row">
-							    {% for post in site.categories.tin-tuc limit:3 %}
-							        <div class="spost clearfix">
-							            <div class="entry-c">
-							                <iv class="entry-image">
-							                   <a href="{{ site.url }}{{ post.url }}"><img class="image_fade img-circle" src="{{ post.image }}" alt="{{ post.title }}"></a>
-							                </div>
-							                <div class="entry-title">
-							                    <h5><a href="{{ site.url }}{{ post.url }}">{{ post.title }}</a></h5>
-							                </div>
-							                <ul class="entry-meta clearfix">
-							                    <li><i class="icon-calendar3"></i> {{ post.date | date_to_long_string }}</li>
-							                    <!-- <li><a href="#"><i class="icon-comments"></i> 12</a></li> -->
-							                <!--</ul>
-							                <!-- <div>
-							                    <p>{{ post.excerpt }}</p>
-							                </div> -->
-							            <!--</div>
-							        </div>
-							    {% endfor %}
-							</div>
-
-						</div>-->
-
-					</div>
-
-					<div class="col_one_fourth col_last">
-
-						<div class="widget subscribe-widget clearfix">
-							<h5><strong>Đăng kí</strong> để nhận ngay khuyến mãi mới nhất từ<br><span>TÂN BÌNH CHI</span></h5>
-							<div class="widget-subscribe-form-result"></div>
-							<form id="widget-subscribe-form" action="subscribe.php" role="form" method="post" class="nobottommargin">
-								<div class="input-group divcenter">
-									<span class="input-group-addon"><i class="icon-email2"></i></span>
-									<input type="email" id="widget-subscribe-form-email" name="widget-subscribe-form-email" class="form-control required email" placeholder="Địa chỉ Email">
-									<span class="input-group-btn">
-										<button class="btn btn-success" type="submit">ĐĂNG KÍ</button>
-									</span>
+									<div class="col-lg-3 col-6 widget_links">
+										<ul>
+											<li><a href="#">Restaurant</a></li>
+											<li><a href="#">Wedding</a></li>
+											<li><a href="#">App Showcase</a></li>
+											<li><a href="#">Magazine</a></li>
+											<li><a href="#">Landing Page</a></li>
+										</ul>
+									</div>
 								</div>
-							</form>
+
+							</div>
 						</div>
 
-						<div class="widget clearfix" style="margin-bottom: -20px;">
+						<div class="col-lg-3 mt-5 mt-lg-0">
+							<div class="widget">
 
-							<div class="row">
+								<div class="row col-mb-30">
+									<div class="col-12">
+										<div class="footer-big-contacts">
+											<span>Call Us:</span>
+											(1) 22 55412474
+										</div>
+									</div>
 
-								<div class="col-md-6 clearfix bottommargin-sm">
-									<a rel="nofollow" target="_blank" href="https://www.facebook.com/T%C3%A2n-B%C3%ACnh-Chi-S%E1%BB%A9-m%E1%BB%87nh-s%E1%BB%A9c-kh%E1%BB%8Fe-xanh-127063944744670/" class="social-icon si-dark si-colored si-facebook nobottommargin" style="margin-right: 10px;">
-										<i class="icon-facebook"></i>
-										<i class="icon-facebook"></i>
-									</a>
-									<a rel="nofollow" target="_blank" href="https://www.facebook.com/T%C3%A2n-B%C3%ACnh-Chi-S%E1%BB%A9-m%E1%BB%87nh-s%E1%BB%A9c-kh%E1%BB%8Fe-xanh-127063944744670/"><small style="display: block; margin-top: 3px;"><strong>Fanpage</strong><br>Facebook</small></a>
-								</div>
-								<div class="col-md-6 clearfix">
-									<a href="{{ site.url }}/rss.xml" class="social-icon si-dark si-colored si-rss nobottommargin" style="margin-right: 10px;">
-										<i class="icon-rss"></i>
-										<i class="icon-rss"></i>
-									</a>
-									<a href="{{ site.url }}/rss.xml"><small style="display: block; margin-top: 3px;"><strong>Đăng kí</strong><br>Nhận tin</small></a>
+									<div class="col-12">
+										<div class="footer-big-contacts">
+											<span>Send an Email:</span>
+											info@canvas.com
+										</div>
+									</div>
 								</div>
 
 							</div>
 
-						</div>
+							<div class="widget subscribe-widget">
 
+								<div class="row col-mb-30">
+									<div class="col-12 col-sm-6">
+										<a href="#" class="social-icon bg-dark h-bg-facebook mb-0 me-3">
+											<i class="fa-brands fa-facebook-f"></i>
+											<i class="fa-brands fa-facebook-f"></i>
+										</a>
+										<a href="#"><small class="d-block text-smaller"><strong>Like us</strong><br>on Facebook</small></a>
+									</div>
+									<div class="col-12 col-sm-6">
+										<a href="#" class="social-icon bg-dark h-bg-rss mb-0 me-3">
+											<i class="fa-solid fa-rss"></i>
+											<i class="fa-solid fa-rss"></i>
+										</a>
+										<a href="#"><small class="d-block text-smaller"><strong>Subscribe</strong><br>to RSS Feeds</small></a>
+									</div>
+								</div>
+
+							</div>
+						</div>
 					</div>
 
 				</div><!-- .footer-widgets-wrap end -->
-
-				<div class="clear"></div>
-
-				<div class="row center">
-					© Copyright {{ site.time | date:"%Y" }}. All Rights Reserved by TÂN BÌNH CHI Ltd.<br>
-					<div class="copyright-links"><a rel="nofollow" href="{{ site.url }}/chinh-sach/">Chính Sách</a> / <a rel="nofollow" href="{{ site.url }}/phap-ly/">Pháp Lý</a></div>
-				</div>
-
 			</div>
 
 			<!-- Copyrights
 			============================================= -->
-			<!--<div id="copyrights">
+			<div id="copyrights">
+				<div class="container">
 
-				<div class="container clearfix">
-
-					<div class="col_half">
-						Copyrights &copy; 2017 All Rights Reserved by TÂN BÌNH CHI Ltd.<br>
-						<div class="copyright-links"><a href="{{ site.url }}/chinh-sach/">Chính Sách</a> / <a href="{{ site.url }}/phap-ly/">Pháp Lý</a></div>
-					</div>
-
-					<div class="col_half col_last tright">
-						<div class="fright clearfix">
-							<a href="https://www.facebook.com/T%C3%A2n-B%C3%ACnh-Chi-S%E1%BB%A9-m%E1%BB%87nh-s%E1%BB%A9c-kh%E1%BB%8Fe-xanh-127063944744670/" class="social-icon si-small si-rounded topmargin-sm si-facebook">
-								<i class="icon-facebook"></i>
-								<i class="icon-facebook"></i>
-							</a>
-
-							<a href="https://plus.google.com/u/7/100185032616610319793" class="social-icon si-small si-rounded topmargin-sm si-gplus">
-								<i class="icon-gplus"></i>
-								<i class="icon-gplus"></i>
-							</a>
-
-							<a href="https://www.linkedin.com/in/t%C3%A2n-b%C3%ACnh-chi-75b902157/" class="social-icon si-small si-rounded topmargin-sm si-linkedin">
-								<i class="icon-linkedin"></i>
-								<i class="icon-linkedin"></i>
-							</a>
-
+					<div class="row justify-content-between col-mb-30">
+						<div class="col-12 col-md-auto text-center text-md-start">
+							Copyrights &copy; 2023 All Rights Reserved by Canvas Inc.<br>
+							<div class="copyright-links"><a href="#">Terms of Use</a> / <a href="#">Privacy Policy</a></div>
 						</div>
 
-						<div class="clear"></div>
-
-						<i class="icon-envelope2"></i> <a href="mailto:info@tanbinhchi.vn">info@tanbinhchi.vn</a> <span class="middot">&middot;</span> <i class="icon-headphones"></i> <a href="tel:0939878282">093 987 82 82</a> <span class="middot">&middot;</span> <i class="icon-skype2"></i> <a href="skype:tanbinhchi">tanbinhchi</a>
+						<div class="col-12 col-md-auto text-center text-md-end">
+							<div class="copyrights-menu copyright-links">
+								<a href="#">Home</a>/<a href="#">About Us</a>/<a href="#">Team</a>/<a href="#">Clients</a>/<a href="#">FAQs</a>/<a href="#">Contact</a>
+							</div>
+						</div>
 					</div>
 
 				</div>
-
 			</div><!-- #copyrights end -->
-
 		</footer><!-- #footer end -->

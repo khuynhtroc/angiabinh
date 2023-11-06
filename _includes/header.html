@@ -1,64 +1,108 @@
 		<!-- Header
 		============================================= -->
-		<header id="header" class="transparent-header semi-transparent full-header">
-
-			<div id="header-wrap">
-
-				<div class="container clearfix">
-
-					<div id="primary-menu-trigger"><i class="icon-reorder"></i></div>
+		<header id="header" class="header-size-sm" data-sticky-shrink="false">
+			<div class="container">
+				<div class="header-row">
 
 					<!-- Logo
 					============================================= -->
-					<div id="logo">
-						<a href="/" class="standard-logo" data-dark-logo="{{ site.url }}/images/logo-dark.png"><img class="responsive-img lazy" src="{{ site.url }}/images/logo.png" alt="Tân Bình Chi Logo"></a>
-						<a href="/" class="retina-logo" data-dark-logo="{{ site.url }}/images/logo-dark.png"><img class="responsive-img lazy" src="{{ site.url }}/images/logo.png" alt="Tân Bình Chi Logo"></a>
+					<div id="logo" class="ms-auto ms-lg-0 me-lg-auto">
+						<a href="demo-construction.html">
+							<img class="logo-default" srcset="construction/images/logo.png, construction/images/logo@2x.png 2x" src="construction/images/logo@2x.png" alt="Canvas Logo">
+						</a>
 					</div><!-- #logo end -->
 
-					<!-- Primary Navigation
-					============================================= -->
-					<nav id="primary-menu" class="style-3">
+					<div class="header-misc d-none d-lg-flex">
 
-						<ul>
-							<li><a href="{{ site.url }}"><div>Trang chủ</div></a></li>
-							<li><a href="{{ site.url }}/gioi-thieu/"><div>Giới thiệu</div></a></li>
-							<li class="current"><a href=""><div>Sản phẩm</div></a>
-								<ul>
-									<li style="background-color: #86d09d;"><a href="{{ site.url }}/tra-ngu-ngon-binh-chi/">Trà Ngủ Ngon Bình Chi</a></li>
-									<li style="background-color: #dfe014;"><a href="{{ site.url }}/binh-chi-tra-hoa/">Bình Chi Trà Hoa</a></li>
-									<!--li style="background-color: #dfe014;"><a href="{{ site.url }}/tra-que-ot-binh-chi/">Trà Quế Ớt Bình Chi</a></li-->
-								</ul>
+						<ul class="header-extras">
+							<li>
+								<i class="i-plain bi-telephone m-0"></i>
+								<div class="he-text">
+									Call Us
+									<span>(1) 22 54215821</span>
+								</div>
 							</li>
-							<li><a href="{{ site.url }}/doi-tac/"><div>Đối tác</div></a></li>
-							<li><a href="{{ site.url }}/tin-tuc/"><div>Tin tức</div></a>
-								<ul>
-									<li><a href="{{ site.url }}/tra-hoa/">Trà Hoa</a></li>
-									<li><a href="{{ site.url }}/tra-ngu-ngon/">Trà Ngủ Ngon</a></li>
-									<!--li><a href="{{ site.url }}/tra-que-ot/">Trà Quế Ớt</a></li-->
-								</ul>
+							<li>
+								<i class="i-plain bi-envelope m-0"></i>
+								<div class="he-text">
+									Email Us
+									<span>info@canvas.com</span>
+								</div>
 							</li>
-							<li><a href="{{ site.url }}/lien-he/" class="color"><div>Liên hệ</div></a></li>
+							<li>
+								<i class="i-plain bi-clock m-0"></i>
+								<div class="he-text">
+									We'are Open
+									<span>Mon - Sat, 10AM to 6PM</span>
+								</div>
+							</li>
 						</ul>
 
-						<div id="top-header-buttons" class="hidden-xs">
-							<a href="tel:0939878282" class="button button-3d button-small button-rounded">HOTLINE: 093 987 82 82</a>
-						</div>
-
-						<!-- Top Search
-						============================================= -->
-						<!--div id="top-search">
-							<a href="#" id="top-search-trigger"><i class="icon-search3"></i><i class="icon-line-cross"></i></a>
-							<form action="tim-kiem" method="get">
-								<input type="text" name="q" class="form-control" value="" placeholder="Nhập nội dung tìm kiếm...">
-							</form>
-						</div--><!-- #top-search end -->
-
-					</nav><!-- #primary-menu end -->
+					</div>
 
 				</div>
-
 			</div>
 
+			<div id="header-wrap">
+				<div class="container">
+					<div class="header-row justify-content-between flex-row-reverse flex-lg-row justify-content-lg-center">
+
+						<div class="header-misc">
+
+							<!-- Top Search
+							============================================= -->
+							<div id="top-search" class="header-misc-icon">
+								<a href="#" id="top-search-trigger"><i class="uil uil-search"></i><i class="bi-x-lg"></i></a>
+							</div><!-- #top-search end -->
+
+						</div>
+
+						<div class="primary-menu-trigger">
+							<button class="cnvs-hamburger" type="button" title="Open Mobile Menu">
+								<span class="cnvs-hamburger-box"><span class="cnvs-hamburger-inner"></span></span>
+							</button>
+						</div>
+
+						<!-- Primary Navigation
+						============================================= -->
+						<nav class="primary-menu with-arrows">
+
+							<ul class="menu-container">
+								<li class="menu-item current"><a class="menu-link" href="demo-construction.html"><div>Home</div></a></li>
+								<li class="menu-item"><a class="menu-link" href="demo-construction-services.html"><div>What we do</div></a>
+									<ul class="sub-menu-container">
+										<li class="menu-item"><a class="menu-link" href="#"><div>Housing Management</div></a></li>
+										<li class="menu-item"><a class="menu-link" href="#"><div>Construction Planning</div></a></li>
+										<li class="menu-item"><a class="menu-link" href="#"><div>Green Homes</div></a></li>
+										<li class="menu-item"><a class="menu-link" href="#"><div>Architecture Design</div></a></li>
+										<li class="menu-item"><a class="menu-link" href="#"><div>Interior Planning</div></a></li>
+									</ul>
+								</li>
+								<li class="menu-item"><a class="menu-link" href="demo-construction-about-us.html"><div>About Us</div></a></li>
+								<li class="menu-item"><a class="menu-link" href="demo-construction-projects.html"><div>Projects</div></a>
+									<ul class="sub-menu-container">
+										<li class="menu-item"><a class="menu-link" href="demo-construction-projects-2.html"><div>2 Columns</div></a></li>
+										<li class="menu-item"><a class="menu-link" href="demo-construction-projects-3.html"><div>3 Columns</div></a></li>
+										<li class="menu-item"><a class="menu-link" href="demo-construction-projects.html"><div>4 Columns</div></a></li>
+										<li class="menu-item"><a class="menu-link" href="demo-construction-projects-5.html"><div>5 Columns</div></a></li>
+									</ul>
+								</li>
+								<li class="menu-item"><a class="menu-link" href="demo-construction-investors.html"><div>Investors</div></a></li>
+								<li class="menu-item"><a class="menu-link" href="demo-construction-blog.html"><div>News</div></a></li>
+								<li class="menu-item"><a class="menu-link" href="demo-construction-careers.html"><div>Careers</div></a></li>
+								<li class="menu-item"><a class="menu-link" href="demo-construction-contact.html"><div>Contact</div></a></li>
+							</ul>
+
+						</nav><!-- #primary-menu end -->
+
+						<form class="top-search-form" action="search.html" method="get">
+							<input type="text" name="q" class="form-control" value="" placeholder="Type &amp; Hit Enter.." autocomplete="off">
+						</form>
+
+					</div>
+				</div>
+			</div>
+			<div class="header-wrap-clone"></div>
 		</header><!-- #header end -->
 
 
