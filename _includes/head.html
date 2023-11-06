@@ -1,0 +1,10 @@
+	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+	
+	<title>{% if page.meta-title %} {{ page.meta-title }} {% else %} {{ page.title }}  {% endif %} &#8211; {{ site.title }}</title>
+	<meta name="description" content="{% if page.meta-description %}{{ page.meta-description }}{% else %}{{ page.description }}{% endif %}">
+	
+	{% include head_default.html %}
+
+	{% include head_script.html %}
+
+	{% include head_style.html %}

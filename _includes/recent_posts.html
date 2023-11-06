@@ -1,0 +1,21 @@
+<div class="row">
+    {% for post in site.categories.tin-tuc limit:5 %}
+        <div class="spost clearfix">
+            <div class="entry-c">
+                <div class="entry-image">
+                   <a href="{{ site.url }}{{ post.url }}"><img class="image_fade img-circle" src="{{ post.image }}" alt="{{ post.title }}"></a>
+                </div>
+                <div class="entry-title">
+                    <h5><a href="{{ site.url }}{{ post.url }}">{{ post.title }}</a></h5>
+                </div>
+                <ul class="entry-meta clearfix">
+                    <li><i class="icon-calendar3"></i> {{ post.date | date_to_long_string }}</li>
+                    <!-- <li><a href="#"><i class="icon-comments"></i> 12</a></li> -->
+                </ul>
+                <!-- <div>
+                    <p>{{ post.excerpt }}</p>
+                </div> -->
+            </div>
+        </div>
+    {% endfor %}
+</div>

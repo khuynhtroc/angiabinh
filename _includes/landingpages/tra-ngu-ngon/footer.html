@@ -1,0 +1,192 @@
+		<!-- Footer
+		============================================= -->
+		<footer id="footer" class="dark">
+
+			<div class="container">
+
+				<!-- Footer Widgets
+				============================================= -->
+				<div class="footer-widgets-wrap clearfix">
+
+					<div class="col_two_third">
+
+						<div class="col_one_third">
+
+							<div class="widget clearfix">
+
+								<a href="{{ site.url }}"><img src="{{ site.url }}/images/footer-widget-logo.png" alt="logo Tân Bình Chi" class="footer-logo"></a>
+
+								<p><strong>Trà Ngủ Ngon Bình Chi</strong> - <span>NGỦ NGON, SÂU GIẤC, BỔ MÁU</span> - Nâng cao chất lượng giấc ngủ. Nguyên nhân khiến da mặt lão hóa nhanh, tóc xơ và rụng, mắt thâm quầng...</p>
+
+								<div style="background: url('{{ site.url }}/images/world-map.png') no-repeat center center; background-size: 100%;">
+									<address>
+										<strong>TRỤ SỞ:</strong><br>
+										Vương Thừa Vũ<br>
+										Phường Khương Mai, Quận Thanh Xuân, TP. Hà Nội<br>
+									</address>
+									<abbr title="Phone Number"><strong>Phone:</strong></abbr> <a href="tel:0939878282">093 987 82 82</a><br>
+									<abbr title="Fax"><strong>Fax:</strong></abbr> <a href="tel:0985629621">0985 629 621</a><br>
+									<abbr title="Email Address"><strong>Email:</strong></abbr> <a href="mailto:info@tanbinhchi.vn">info@tanbinhchi.vn</a><br>
+								</div>
+
+							</div>
+
+						</div>
+
+						<div class="col_one_third">
+
+							<div class="widget widget_links clearfix">
+
+								<h4>Trà Ngủ Ngon</h4>
+
+								<div class="row">
+									{% for post in site.categories.tra-ngu-ngon limit:5 %}
+    								    <div class="ipost clearfix">
+    								        <div class="entry-title">
+    								            <ul>
+    								            	<li><a href="{{ site.url }}{{ post.url }}">{{ post.title }}</a></li>
+    								            </ul>
+    								        </div>
+    								    </div>
+    								{% endfor %}
+								</div>
+
+							</div>
+
+						</div>
+
+						<div class="col_one_third col_last">
+
+							<div class="widget clearfix">
+								<h4>Bài viết mới nhất</h4>
+
+								<div class="row">
+								    {% for post in site.categories.tin-tuc limit:3 %}
+								        <div class="spost clearfix">
+								            <div class="entry-c">
+								                <div class="entry-title">
+								                    <h5><a href="{{ site.url }}{{ post.url }}">{{ post.title }}</a></h5>
+								                </div>
+								                <ul class="entry-meta clearfix">
+								                    <li><i class="icon-calendar3"></i> {{ post.date | date_to_long_string }}</li>
+								                </ul>
+								            </div>
+								        </div>
+								    {% endfor %}
+								</div>
+							</div>
+
+						</div>
+
+					</div>
+
+					<div class="col_one_third col_last">
+
+						<div class="widget clearfix" style="margin-bottom: -20px;">
+
+							<div class="row">
+
+								<div class="col-md-6 bottommargin-sm">
+									<div class="counter counter-small"><span data-from="50" data-to="6751" data-refresh-interval="80" data-speed="3000" data-comma="true"></span></div>
+									<h5 class="nobottommargin">Lượt mua</h5>
+								</div>
+
+								<div class="col-md-6 bottommargin-sm">
+									<div class="counter counter-small"><span data-from="100" data-to="5165" data-refresh-interval="50" data-speed="2000" data-comma="true"></span></div>
+									<h5 class="nobottommargin">Khách hàng</h5>
+								</div>
+
+							</div>
+
+						</div>
+
+						<div class="widget subscribe-widget clearfix">
+							<h5><strong>Đăng kí</strong> để nhận ngay khuyến mãi mới nhất từ <span>TÂN BÌNH CHI</span></h5>
+							<div class="widget-subscribe-form-result"></div>
+							<form id="widget-subscribe-form" action="{{ site.url }}/include/subscribe.php" role="form" method="post" class="nobottommargin">
+								<div class="input-group divcenter">
+									<span class="input-group-addon"><i class="icon-email2"></i></span>
+									<input type="email" id="widget-subscribe-form-email" name="widget-subscribe-form-email" class="form-control required email" placeholder="Địa chỉ Email">
+									<span class="input-group-btn">
+										<button class="btn btn-success" type="submit">ĐĂNG KÍ</button>
+									</span>
+								</div>
+							</form>
+						</div>
+
+						<div class="widget clearfix" style="margin-bottom: -20px;">
+
+							<div class="row">
+
+								<div class="col-md-6 clearfix bottommargin-sm">
+									<a href="https://www.facebook.com/Trà-ngủ-ngon-Bình-Chi-849216075261360" class="social-icon si-dark si-colored si-facebook nobottommargin" style="margin-right: 10px;">
+										<i class="icon-facebook"></i>
+										<i class="icon-facebook"></i>
+									</a>
+									<a href="https://www.facebook.com/Trà-ngủ-ngon-Bình-Chi-849216075261360"><small style="display: block; margin-top: 3px;"><strong>Fanpage</strong><br>on Facebook</small></a>
+								</div>
+								<div class="col-md-6 clearfix">
+									<a href="#" class="social-icon si-dark si-colored si-rss nobottommargin" style="margin-right: 10px;">
+										<i class="icon-rss"></i>
+										<i class="icon-rss"></i>
+									</a>
+									<a href="{{ site.url }}/feed/"><small style="display: block; margin-top: 3px;"><strong>Đăng kí</strong><br>Nhận tin</small></a>
+								</div>
+
+							</div>
+
+						</div>
+					</div>	
+					
+
+				</div><!-- .footer-widgets-wrap end -->
+
+				<div class="clear"></div>
+
+				<div class="row center">
+					© Copyright {{ site.time | date:"%Y" }}. All Rights Reserved by TÂN BÌNH CHI Ltd.<br>
+					<div class="copyright-links"><a href="{{ site.url }}/chinh-sach/">Chính Sách</a> / <a href="{{ site.url }}/phap-ly/">Pháp Lý</a></div>
+				</div>
+
+			</div>
+
+			<!-- Copyrights
+			============================================= -->
+			<!--<div id="copyrights">
+
+				<div class="container clearfix">
+
+					<div class="col_half">
+						Copyrights &copy; 2017 All Rights Reserved by TÂN BÌNH CHI Ltd.<br>
+						<div class="copyright-links"><a href="{{ site.url }}/chinh-sach/">Chính Sách</a> / <a href="{{ site.url }}/phap-ly/">Pháp Lý</a></div>
+					</div>
+
+					<div class="col_half col_last tright">
+						<div class="fright clearfix">
+							<a href="https://www.facebook.com/T%C3%A2n-B%C3%ACnh-Chi-S%E1%BB%A9-m%E1%BB%87nh-s%E1%BB%A9c-kh%E1%BB%8Fe-xanh-127063944744670/" class="social-icon si-small si-rounded topmargin-sm si-facebook">
+								<i class="icon-facebook"></i>
+								<i class="icon-facebook"></i>
+							</a>
+
+							<a href="https://plus.google.com/u/7/100185032616610319793" class="social-icon si-small si-rounded topmargin-sm si-gplus">
+								<i class="icon-gplus"></i>
+								<i class="icon-gplus"></i>
+							</a>
+
+							<a href="https://www.linkedin.com/in/t%C3%A2n-b%C3%ACnh-chi-75b902157/" class="social-icon si-small si-rounded topmargin-sm si-linkedin">
+								<i class="icon-linkedin"></i>
+								<i class="icon-linkedin"></i>
+							</a>
+
+						</div>
+
+						<div class="clear"></div>
+
+						<i class="icon-envelope2"></i> <a href="mailto:info@tanbinhchi.vn">info@tanbinhchi.vn</a> <span class="middot">&middot;</span> <i class="icon-headphones"></i> <a href="tel:0939878282">093 987 82 82</a> <span class="middot">&middot;</span> <i class="icon-skype2"></i> <a href="skype:tanbinhchi">tanbinhchi</a>
+					</div>
+
+				</div>
+
+			</div><!-- #copyrights end -->
+
+		</footer><!-- #footer end -->

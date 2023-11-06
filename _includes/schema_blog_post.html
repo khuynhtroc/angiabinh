@@ -1,0 +1,45 @@
+{% assign review_count = 18 %}
+{% if (page.review_count) %}
+  {% assign review_count = page.review_count %}
+{% endif %}
+
+<script type="application/ld+json">
+{
+	"@context": "http://schema.org/",
+	"@type": "BlogPosting",
+	"datePublished": "{{ page.date | date_to_xmlschema }}",
+	"headline": "{{ page.title }}",
+	"mainEntityOfPage": {
+		"@type": "WebPage",
+		"@id": "{{ site.url }}{{ page.url }}"
+	},
+	"author": {
+		"@type": "Person",
+		"name": "TÂN BÌNH CHI"
+	},
+	"publisher": {
+		"@type": "Organization",
+		"name": "TÂN BÌNH CHI",
+		"logo": {
+			"@type": "ImageObject",
+			"url": "{{ post.image }}",
+			"width": "200px",
+			"height": "135px"
+		}
+	},
+	"dateModified": "{{ page.date | date_to_xmlschema }}",
+	"image": {
+		"@type": "ImageObject",
+		"url": "{{ site.url }}/assets/img/icon.png",
+		"width": 100,
+		"height": 100
+	},
+	"name": "{{ page.title }}",
+	"aggregateRating": {
+		"@type": "AggregateRating",
+		"ratingValue": "5",
+		"ratingCount": "{{ review_count }}"
+	}
+}
+
+</script>

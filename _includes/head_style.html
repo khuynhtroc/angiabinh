@@ -1,0 +1,26 @@
+<style>
+#top-header-buttons {
+	float: right;
+	margin: 33px 0;
+	-webkit-transition: margin .4s ease;
+	-o-transition: margin .4s ease;
+	transition: margin .4s ease;
+}
+
+#header.sticky-header #top-header-buttons { margin: 13px 0; }
+
+#top-header-buttons a { margin: 0 0 0 15px; }
+
+#top-header-buttons a:not(.button) { color: #FFF; }
+#top-header-buttons a:not(.button):hover { color: #DDD; }
+
+#header.sticky-header #top-header-buttons a:not(.button) { color: #84ba3f; }
+#header.sticky-header #top-header-buttons a:not(.button):hover { color: #111; }
+
+.device-sm #top-header-buttons {
+	position: absolute;
+	top: 0;
+	left: auto;
+	right: 15px;
+}
+</style>

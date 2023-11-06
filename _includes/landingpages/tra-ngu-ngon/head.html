@@ -1,0 +1,10 @@
+	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+	
+	<title>{% if page.meta-title %} {{ page.meta-title }} {% else %} {{ page.title }}  {% endif %} &#8211; {{ site.title }}</title>
+	<meta name="description" content="{% if page.meta-description %}{{ page.meta-description }}{% else %}{{ page.description }}{% endif %}">
+	
+	{% include landingpages/tra-ngu-ngon/head_default.html %}
+
+	{% include schema_product.html %}
+
+	{% include head_script.html %}

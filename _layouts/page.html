@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="vi-VN">
+<head>
+    {% include head.html %}
+
+    {% include head_style.html %}
+</head>
+
+<body class="no-transition stretched sticky-responsive-menu">
+
+    {% include _after_body.html %}
+    {% include fb_pixel_events.html %}
+
+    <!-- Document Wrapper
+    ============================================= -->
+    <div id="wrapper" class="clearfix">
+  
+        {% include header.html %}
+    
+        <section id="page-title">
+            <div class="container clearfix">
+                <h1>{{ page.title }}</h1>
+                <span>{{ page.description }}</span>
+            </div>
+            <div class="container clearfix">
+                <ol class="breadcrumb">
+                    <li><a href="{{ site.url }}">Home</a></li>
+                    <li class="active"><a href="{{ site.url }}{{ page.url }}">{{ page.title }}</a></li>
+                </ol>
+            </div>
+    
+        </section>
+  
+  
+      <!-- Content
+      ============================================= -->
+      <section id="content">
+  
+          <div class="content-wrap">
+              <div class="container clearfix">
+  
+              <div class="postcontent col_last nobottommargin clearfix">
+                  {{ content }}
+              </div>
+              
+              <div class="sidebar nobottommargin clearfix">
+                {% include sidebar.html %}
+              </div>
+      
+              </div>
+          </div>
+      
+  
+      </section><!-- #content end -->
+  
+        {% include footer.html %}
+  
+    </div><!-- #wrapper end -->
+
+
+    {% include script.html %}
+
+    {% include footer_script.html %}
+
+
+</body>
+</html>
+
+

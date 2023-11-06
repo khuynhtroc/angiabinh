@@ -1,0 +1,37 @@
+
+{% if (reviews.size == 0) %}
+  {% assign review_count = 169 %}
+{% else %}
+  {% assign review_count = reviews.size %}
+{% endif %}
+<script type="application/ld+json">
+{
+  "@context": "http://schema.org/",
+  "@type": "Product",
+  "name": "{{ page.title }}",
+  "image": "{{ site.url }}{{ page.image }}",
+  "description": "{{ page.description }}",
+  "sku": "{{ page.title }}",
+  "brand": {
+    "@type": "Thing",
+    "name": "Tân Bình Chi"
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "{{ page.rating }}",
+    "reviewCount": "{{ review_count }}",
+    "bestRating": "100",
+    "worstRating": "0"
+  },
+  "offers": {
+    "@type": "Offer",
+    "priceCurrency": "VND",
+    "price": "{{ page.price }}",
+    "availability": "http://schema.org/InStock",
+    "seller": {
+      "@type": "Organization",
+      "name": "Tân Bình Chi"
+    }
+  }
+}
+</script>

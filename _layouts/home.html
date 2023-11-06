@@ -1,0 +1,45 @@
+<!DOCTYPE html> 
+<html dir="ltr" lang="vi-VN">
+<head>
+	{% include head.html %}
+</head>
+
+<body class="no-transition stretched sticky-responsive-menu">
+
+	{% include _after_body.html %}
+	
+	{% include fb_pixel_events.html %}
+
+	<!-- Document Wrapper
+	============================================= -->
+	<div id="wrapper" class="clearfix">
+
+		{% include header.html %}
+
+		{% include _after_header.html %}
+
+		<!-- Content
+		============================================= -->
+		<section id="content">
+
+			<div class="content-wrap">
+
+				{{ content }}
+
+			</div>
+
+		</section><!-- #content end -->
+
+		{% include footer.html %}
+
+	</div><!-- #wrapper end -->
+
+
+	{% include script.html %}
+
+	{% include footer_script.html %}
+
+	{% include _before_end_body.html %}
+
+</body>
+</html>

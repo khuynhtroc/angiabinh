@@ -1,0 +1,138 @@
+		<!-- Header
+		============================================= -->
+		<header id="header" class="transparent-header semi-transparent full-header">
+
+			<div id="header-wrap">
+
+				<div class="container clearfix">
+
+					<div id="primary-menu-trigger"><i class="icon-reorder"></i></div>
+
+					<!-- Logo
+					============================================= -->
+					<div id="logo">
+						<a href="/" class="standard-logo" data-dark-logo="{{ site.url }}/images/logo-dark.png"><img class="responsive-img lazy" src="{{ site.url }}/images/logo.png" alt="Tân Bình Chi Logo"></a>
+						<a href="/" class="retina-logo" data-dark-logo="{{ site.url }}/images/logo-dark.png"><img class="responsive-img lazy" src="{{ site.url }}/images/logo.png" alt="Tân Bình Chi Logo"></a>
+					</div><!-- #logo end -->
+
+					<!-- Primary Navigation
+					============================================= -->
+					<nav id="primary-menu" class="style-3">
+
+						<ul>
+							<li><a href="{{ site.url }}"><div>Trang chủ</div></a></li>
+							<li><a href="{{ site.url }}/gioi-thieu/"><div>Giới thiệu</div></a></li>
+							<li class="current"><a href=""><div>Sản phẩm</div></a>
+								<ul>
+									<li style="background-color: #86d09d;"><a href="{{ site.url }}/tra-ngu-ngon-binh-chi/">Trà Ngủ Ngon Bình Chi</a></li>
+									<li style="background-color: #dfe014;"><a href="{{ site.url }}/binh-chi-tra-hoa/">Bình Chi Trà Hoa</a></li>
+									<!--li style="background-color: #dfe014;"><a href="{{ site.url }}/tra-que-ot-binh-chi/">Trà Quế Ớt Bình Chi</a></li-->
+								</ul>
+							</li>
+							<li><a href="{{ site.url }}/doi-tac/"><div>Đối tác</div></a></li>
+							<li><a href="{{ site.url }}/tin-tuc/"><div>Tin tức</div></a>
+								<ul>
+									<li><a href="{{ site.url }}/tra-hoa/">Trà Hoa</a></li>
+									<li><a href="{{ site.url }}/tra-ngu-ngon/">Trà Ngủ Ngon</a></li>
+									<!--li><a href="{{ site.url }}/tra-que-ot/">Trà Quế Ớt</a></li-->
+								</ul>
+							</li>
+							<li><a href="{{ site.url }}/lien-he/" class="color"><div>Liên hệ</div></a></li>
+						</ul>
+
+						<div id="top-header-buttons" class="hidden-xs">
+							<a href="tel:0939878282" class="button button-3d button-small button-rounded">HOTLINE: 093 987 82 82</a>
+						</div>
+
+						<!-- Top Search
+						============================================= -->
+						<!--div id="top-search">
+							<a href="#" id="top-search-trigger"><i class="icon-search3"></i><i class="icon-line-cross"></i></a>
+							<form action="tim-kiem" method="get">
+								<input type="text" name="q" class="form-control" value="" placeholder="Nhập nội dung tìm kiếm...">
+							</form>
+						</div--><!-- #top-search end -->
+
+					</nav><!-- #primary-menu end -->
+
+				</div>
+
+			</div>
+
+		</header><!-- #header end -->
+
+
+		<script type="application/ld+json">
+		    {
+		      "@context": "http://schema.org",
+		      "@type": "Organization",
+		      "url": "{{ site.url }}",
+		      "logo": "{{ site.url }}/images/logo.png"
+		    }
+		</script>
+		
+		<script type="application/ld+json">
+		    {
+		      "@context" : "http://schema.org",
+		      "@type" : "Organization",
+		      "url" : "{{ site.url }}",
+		      "contactPoint" : [{
+		        "@type" : "ContactPoint",
+		        "telephone" : "{{ site.phone }}",
+		        "contactType" : "Customer service"
+		      }]
+		    }
+		</script>
+		
+		<script type="application/ld+json">
+		{
+		  "@context" : "http://schema.org",
+		  "@type" : "Organization",
+		  "name" : "{{ site.name }}",
+		  "url" : "{{ site.url }}",
+		  "sameAs" : [
+		    "https://www.facebook.com/tanbinhchi.vn/",
+		    "https://twitter.com/tanbinhchi",
+		    "https://plus.google.com/u/7/100185032616610319793"
+		    
+		  ]
+		}
+		</script>
+		
+		<script type="application/ld+json">
+		{
+		  "@context": "http://schema.org",
+		  "@type": "WebSite",
+		  "url": "{{ site.url }}",
+		  "potentialAction": {
+		    "@type": "SearchAction",
+		    "target": "{{ site.url }}/search/?q={search_term_string}",
+		    "query-input": "required name=search_term_string"
+		  }
+		}
+		</script>
+		
+		{% if(page.enable_map_on_serp) %}
+		  <script type="application/ld+json">
+		  {
+		    "@context" : "http://schema.org",
+		    "@type" : "WebSite",
+		    "name" : "{{ page.product-name }}",
+		    "alternateName" : "{{ page.h1-title }}",
+		    "url" : "{{ site.url }}{{ page.url }}"
+		  }
+		  </script>
+		
+		{% else %}
+		
+		  <script type="application/ld+json">
+		  {
+		    "@context" : "http://schema.org",
+		    "@type" : "WebSite",
+		    "name" : "Tân Bình Chi",
+		    "alternateName" : "{{ site.name }}",
+		    "url" : "{{ site.url }}"
+		  }
+		  </script>
+		
+		{% endif %}		

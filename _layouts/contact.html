@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="vi-VN">
+<head>
+
+	{% include head.html %}
+
+
+</head>
+
+<body class="no-transition stretched sticky-responsive-menu">
+
+	{% include _after_body.html %}
+	{% include fb_pixel_events.html %}
+	{% include fb_pixel_events.html %}
+
+	<!-- Document Wrapper
+	============================================= -->
+	<div id="wrapper" class="clearfix">
+
+		{% include header.html %}
+
+		<section id="page-title">
+  
+        	<div class="container clearfix">
+        	  	<h1>{{ page.title }}</h1>
+        	  	<span>{{ page.description }}</span>
+        	</div>
+        	<div class="container clearfix">
+        	  	<ol class="breadcrumb">
+        	    	<li><a href="{{ site.url }}">Trang chủ</a></li>
+        	    	<li class="active"><a href="{{ site.url }}{{ page.url }}">{{ page.title }}</a></li>
+        	  	</ol>
+        	</div>
+  
+      	</section>
+
+		<!-- Content
+		============================================= -->
+		<section id="content">
+
+			<div class="content-wrap">
+
+				{{ content }}
+
+			</div>
+
+		</section><!-- #content end -->
+
+		{% include footer.html %}
+
+	</div><!-- #wrapper end -->
+
+
+	{% include script.html %}
+
+	{% include footer_script.html %}
+
+	{% include footer_script_map.html %}
+
+</body>
+</html>

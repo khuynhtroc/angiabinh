@@ -1,0 +1,47 @@
+---
+layout: 404
+title: "Page Not Found"
+description: "Page not found."
+comments: false
+sitemap: false
+permalink: "/404.html"
+---  
+
+		<section id="slider" class="slider-parallax full-screen dark error404-wrap" style="background: url({{ site.url }}/images/modals/search.jpg) center;">
+			<div class="slider-parallax-inner">
+
+				<div class="container vertical-middle center clearfix">
+
+					<div class="error404">404</div>
+
+					<div class="heading-block nobottomborder">
+						<h4>Ooopps.! Trang bạn đang muốn tìm kiếm hiện không thấy!</h4>
+						<span>Hãy thử tìm kiếm lại kết quả trên trang chủ nhé! <a href="{{ site.url }}">{{ site.url }}</a></span>
+					</div>
+
+					<script type="text/javascript">
+      						
+      				   	   function Redirect() {
+      				   	      window.location="{{ site.url }}";
+      				   	   }
+      				   	   
+      				   	   document.write("Bạn sẽ được chuyển hướng tới trang chủ trong 15 giây.");
+      				   	   setTimeout('Redirect()', 15000);
+					
+      				</script>
+
+					<form action="/tim-kiem/" method="get" role="form" class="divcenter nobottommargin">
+						<div class="input-group input-group-lg">
+							<input type="text" name="q" class="form-control" placeholder="Từ khóa tìm kiếm...">
+							<span class="input-group-btn">
+								<button class="btn btn-danger" type="button">Tìm Kiếm</button>
+							</span>
+						</div>
+					</form>
+
+				</div>
+
+
+
+			</div>
+		</section>

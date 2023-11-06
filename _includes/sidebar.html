@@ -1,0 +1,66 @@
+<div class="sidebar-widgets-wrap">
+
+
+	<div class="widget clearfix">
+		{% include ad_sidebar_top.html %}
+	</div>
+
+	
+	<!-- Top Search
+	============================================= -->
+	
+	<form action="tim-kiem" method="get">
+		<div class="input-group">
+			<span class="input-group-btn"><button class="btn btn-success" type="submit"><i class="icon-line-search"></i></button></span>
+			<input type="text" name="q" class="form-control" value="" placeholder="Tìm kiếm..">
+		</div>
+	</form>
+	<!-- #top-search end -->
+
+	<div class="widget clearfix">
+
+		<h4>BÀI VIẾT MỚI NHẤT</h4>
+		<div id="post-list-footer">
+
+			{% for post in site.categories.tin-tuc limit:5 %}
+
+			<div class="spost clearfix">
+				<div class="entry-c">
+					<div class="entry-image">
+            		   <a href="{{ site.url }}{{ post.url }}"><img class="image_fade" src="{{ post.image }}" alt="{{ post.title }}"></a>
+            		</div>
+					<div class="entry-title">
+						<h5><a href="{{ site.url }}{{ post.url }}">{{ post.title }}</a></h5>
+					</div>
+				</div>
+			</div>
+			
+			{% endfor %}
+
+
+		</div>
+
+	</div>
+
+	<div id="subscriber" class="widget subscribe-widget clearfix">
+		<h4 class="highlight-me">ĐĂNG KÍ NHẬN KHUYẾN MÃI</h4>
+		<h5>Đăng kí nhận tin tức khuyến mãi mới nhất từ <span>TÂN BÌNH CHI</span></h5>
+		<form action="subscribe.php" role="form" class="notopmargin nobottommargin">
+			<div class="input-group divcenter">
+				<input type="text" class="form-control" placeholder="Địa chỉ Email" required="">
+				<span class="input-group-btn">
+					<button class="btn btn-success" type="submit"><i class="icon-email2"></i></button>
+				</span>
+			</div>
+		</form>
+	</div>
+
+	<div class="widget clearfix">
+
+		{% include ad_sidebar_bottom.html %}
+
+	</div>
+
+	
+
+</div>
