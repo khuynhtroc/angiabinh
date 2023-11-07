@@ -1,61 +1,43 @@
-<!DOCTYPE html>
+<!DOCTYPE html> 
 <html dir="ltr" lang="vi-VN">
 <head>
-
-	{% include head.html %}
-
-
+    {% include head.html %}
 </head>
 
-<body class="no-transition stretched sticky-responsive-menu">
+<body class="stretched">
 
-	{% include _after_body.html %}
-	{% include fb_pixel_events.html %}
-	{% include fb_pixel_events.html %}
+    {% include _after_body.html %}
+    
+    {% include fb_pixel_events.html %}
 
-	<!-- Document Wrapper
-	============================================= -->
-	<div id="wrapper" class="clearfix">
+    <!-- Document Wrapper
+    ============================================= -->
+    <div id="wrapper" class="clearfix">
 
-		{% include header.html %}
+        {% include before_header.html %}
 
-		<section id="page-title">
-  
-        	<div class="container clearfix">
-        	  	<h1>{{ page.title }}</h1>
-        	  	<span>{{ page.description }}</span>
-        	</div>
-        	<div class="container clearfix">
-        	  	<ol class="breadcrumb">
-        	    	<li><a href="{{ site.url }}">Trang chủ</a></li>
-        	    	<li class="active"><a href="{{ site.url }}{{ page.url }}">{{ page.title }}</a></li>
-        	  	</ol>
-        	</div>
-  
-      	</section>
+        {% include header.html %}
 
-		<!-- Content
-		============================================= -->
-		<section id="content">
+		<section class="gmap vh-40 vh-md-60" data-address="Melbourne, Australia" data-maptype="ROADMAP" data-zoom="13" data-scrollwheel="false" data-markers='[{ address: "Melbourne, Australia", html: "<div class=\"p-2\" style=\"width: 300px;\"><h4 class=\"mb-2\">Hi! We are <span>Envato!</span></h4><p class=\"mb-0\" style=\"font-size:1rem;\">Our mission is to help people to <strong>earn</strong> and to <strong>learn</strong> online. We operate <strong>marketplaces</strong> where hundreds of thousands of people buy and sell digital goods every day.</p></div>", icon: { image: "demos/construction/images/marker.png", iconsize: [32, 39], iconanchor: [13,39] } }]'></section>
+        
+        <!-- Content
+        ============================================= -->
+        <section id="content">
 
-			<div class="content-wrap">
+            <div class="content-wrap">
 
-				{{ content }}
+                {{ content }}
 
-			</div>
+            </div>
 
-		</section><!-- #content end -->
+        </section><!-- #content end -->
 
-		{% include footer.html %}
+        {% include footer.html %}
 
-	</div><!-- #wrapper end -->
+    </div><!-- #wrapper end -->
 
 
-	{% include script.html %}
-
-	{% include footer_script.html %}
-
-	{% include footer_script_map.html %}
+    {% include script.html %}
 
 </body>
 </html>
