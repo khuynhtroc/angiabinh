@@ -6,16 +6,18 @@
 
 </head>
 
-<body class="no-transition stretched sticky-responsive-menu">
+<body class="stretched">
 
-  {% include _after_body.html %}
+    {% include _after_body.html %}
+    
+    {% include fb_pixel_events.html %}
 
-  {% include fb_pixel_events.html %}
+    <!-- Document Wrapper
+    ============================================= -->
+    <div id="wrapper" class="clearfix">
 
-      <!-- Document Wrapper
-      ============================================= -->
-      <div id="wrapper" class="clearfix">
-  
+        {% include before_header.html %}
+
         {% include header.html %}
   
           {{ content }}
