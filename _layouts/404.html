@@ -1,9 +1,7 @@
 <!DOCTYPE html> 
 <html dir="ltr" lang="vi-VN">
 <head>
-  {% include head.html %}
-
-
+    {% include head.html %}
 </head>
 
 <body class="stretched">
@@ -19,20 +17,21 @@
         {% include before_header.html %}
 
         {% include header.html %}
-  
-          {{ content }}
-      
+
+        <!-- Content
+        ============================================= -->
+
+
+                {{ content }}
+
+
+
         {% include footer.html %}
 
-      </div><!-- #wrapper end -->
+    </div><!-- #wrapper end -->
 
 
-  {% include script.html %}
-
-  {% include footer_script.html %}
-
+    {% include script.html %}
 
 </body>
 </html>
-
-
