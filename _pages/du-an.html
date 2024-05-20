@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: project
 title: "Dự án hợp tác"
 meta-title: "Dự án hợp tác"
 h1-title: "Dự án hợp tác"
@@ -8,162 +8,23 @@ meta-description: ""
 permalink:  "/du-an/"
 ---
 
-				<div class="container">
 
-					<h2 class="text-center ls-1 mb-5">Dự Án Bê Tông An Gia Bình Triển Khai</h2>
-
-					<div id="portfolio" class="portfolio row gutter-20">
-
+					{% for post in site.categories.du-an %}
 						<article class="portfolio-item col-12 col-sm-6 pf-media pf-icons">
 							<div class="grid-inner">
 								<div class="portfolio-image">
-									<img src="{{ site.url }}/construction/images/projects/1.jpg" alt="The Atmosphere">
+									<img src="{{ site.url }}{{ post.image }}" alt="{{ post.title }}">
 									<div class="bg-overlay">
 										<div class="bg-overlay-content dark" data-hover-animate="fadeIn">
-											<a href="/du-an/du-an-1/" class="overlay-trigger-icon bg-light text-dark" data-hover-animate="zoomIn" data-hover-animate-out="zoomOut" data-hover-speed="350"><i class="uil uil-ellipsis-h"></i></a>
+											<a href="{{ site.url }}{{ post.url }}" class="overlay-trigger-icon bg-light text-dark" data-hover-animate="zoomIn" data-hover-animate-out="zoomOut" data-hover-speed="350"><i class="uil uil-ellipsis-h"></i></a>
 										</div>
 										<div class="bg-overlay-bg dark" data-hover-animate="fadeIn"></div>
 									</div>
 								</div>
 								<div class="portfolio-desc">
-									<h3><a href="#">The Atmosphere</a></h3>
-									<span>Chicago, USA</span>
+									<h3><a href="{{ site.url }}{{ post.url }}">{{ post.title }}</a></h3>
+									<span>{{ post.location }}</span>
 								</div>
 							</div>
 						</article>
-
-						<article class="portfolio-item col-12 col-sm-6 pf-illustrations">
-							<div class="grid-inner">
-								<div class="portfolio-image">
-									<img src="{{ site.url }}/construction/images/projects/2.jpg" alt="Wavelength Structure">
-									<div class="bg-overlay">
-										<div class="bg-overlay-content dark" data-hover-animate="fadeIn">
-											<a href="#" class="overlay-trigger-icon bg-light text-dark" data-hover-animate="zoomIn" data-hover-animate-out="zoomOut" data-hover-speed="350"><i class="uil uil-ellipsis-h"></i></a>
-										</div>
-										<div class="bg-overlay-bg dark" data-hover-animate="fadeIn"></div>
-									</div>
-								</div>
-								<div class="portfolio-desc">
-									<h3>Wavelength Structure</h3>
-									<span>Madrid, Spain</span>
-								</div>
-							</div>
-						</article>
-
-						<article class="portfolio-item col-12 col-sm-6 pf-graphics pf-uielements">
-							<div class="grid-inner">
-								<div class="portfolio-image">
-									<img src="{{ site.url }}/construction/images/projects/3.jpg" alt="Greenhouse Garden">
-									<div class="bg-overlay">
-										<div class="bg-overlay-content dark" data-hover-animate="fadeIn">
-											<a href="#" class="overlay-trigger-icon bg-light text-dark" data-hover-animate="zoomIn" data-hover-animate-out="zoomOut" data-hover-speed="350"><i class="uil uil-ellipsis-h"></i></a>
-										</div>
-										<div class="bg-overlay-bg dark" data-hover-animate="fadeIn"></div>
-									</div>
-								</div>
-								<div class="portfolio-desc">
-									<h3>Greenhouse Garden</h3>
-									<span>Bali, Indonesia</span>
-								</div>
-							</div>
-						</article>
-
-						<article class="portfolio-item col-12 col-sm-6 pf-icons pf-illustrations">
-							<div class="grid-inner">
-								<div class="portfolio-image">
-									<img src="{{ site.url }}/construction/images/projects/4.jpg" alt="Industrial Hub">
-									<div class="bg-overlay">
-										<div class="bg-overlay-content dark" data-hover-animate="fadeIn">
-											<a href="#" class="overlay-trigger-icon bg-light text-dark" data-hover-animate="zoomIn" data-hover-animate-out="zoomOut" data-hover-speed="350"><i class="uil uil-ellipsis-h"></i></a>
-										</div>
-										<div class="bg-overlay-bg dark" data-hover-animate="fadeIn"></div>
-									</div>
-								</div>
-								<div class="portfolio-desc">
-									<h3>Industrial Hub</h3>
-									<span>Beijing, China</span>
-								</div>
-							</div>
-						</article>
-
-						<article class="portfolio-item col-12 col-sm-6 pf-uielements pf-media">
-							<div class="grid-inner">
-								<div class="portfolio-image">
-									<img src="{{ site.url }}/construction/images/projects/5.jpg" alt="Corporate Headquarters">
-									<div class="bg-overlay">
-										<div class="bg-overlay-content dark" data-hover-animate="fadeIn">
-											<a href="#" class="overlay-trigger-icon bg-light text-dark" data-hover-animate="zoomIn" data-hover-animate-out="zoomOut" data-hover-speed="350"><i class="uil uil-ellipsis-h"></i></a>
-										</div>
-										<div class="bg-overlay-bg dark" data-hover-animate="fadeIn"></div>
-									</div>
-								</div>
-								<div class="portfolio-desc">
-									<h3>Corporate Headquarters</h3>
-									<span>California, USA</span>
-								</div>
-							</div>
-						</article>
-
-						<article class="portfolio-item col-12 col-sm-6 pf-graphics pf-illustrations">
-							<div class="grid-inner">
-								<div class="portfolio-image">
-									<img src="{{ site.url }}/construction/images/projects/6.jpg" alt="Space Station">
-									<div class="bg-overlay">
-										<div class="bg-overlay-content dark" data-hover-animate="fadeIn">
-											<a href="#" class="overlay-trigger-icon bg-light text-dark" data-hover-animate="zoomIn" data-hover-animate-out="zoomOut" data-hover-speed="350"><i class="uil uil-ellipsis-h"></i></a>
-										</div>
-										<div class="bg-overlay-bg dark" data-hover-animate="fadeIn"></div>
-									</div>
-								</div>
-								<div class="portfolio-desc">
-									<h3>Space Station</h3>
-									<span>Moscow, Russia</span>
-								</div>
-							</div>
-						</article>
-
-						<article class="portfolio-item col-12 col-sm-6 pf-uielements pf-icons">
-							<div class="grid-inner">
-								<div class="portfolio-image">
-									<img src="{{ site.url }}/construction/images/projects/7.jpg" alt="Bent Architecture">
-									<div class="bg-overlay">
-										<div class="bg-overlay-content dark" data-hover-animate="fadeIn">
-											<a href="#" class="overlay-trigger-icon bg-light text-dark" data-hover-animate="zoomIn" data-hover-animate-out="zoomOut" data-hover-speed="350"><i class="uil uil-ellipsis-h"></i></a>
-										</div>
-										<div class="bg-overlay-bg dark" data-hover-animate="fadeIn"></div>
-									</div>
-								</div>
-								<div class="portfolio-desc">
-									<h3>Bent Architecture</h3>
-									<span>Melbourne, Australia</span>
-								</div>
-							</div>
-						</article>
-
-						<article class="portfolio-item col-12 col-sm-6 pf-graphics">
-							<div class="grid-inner">
-								<div class="portfolio-image">
-									<img src="{{ site.url }}/construction/images/projects/8.jpg" alt="Lakeview Center">
-									<div class="bg-overlay">
-										<div class="bg-overlay-content dark" data-hover-animate="fadeIn">
-											<a href="#" class="overlay-trigger-icon bg-light text-dark" data-hover-animate="zoomIn" data-hover-animate-out="zoomOut" data-hover-speed="350"><i class="uil uil-ellipsis-h"></i></a>
-										</div>
-										<div class="bg-overlay-bg dark" data-hover-animate="fadeIn"></div>
-									</div>
-								</div>
-								<div class="portfolio-desc">
-									<h3>Lakeview Center</h3>
-									<span>Auckland, New Zealand</span>
-								</div>
-							</div>
-						</article>
-
-					</div>
-
-				</div>
-
-				<a href="demo-construction-projects.html" class="button button-3d border-bottom-0 button-full text-center fw-light font-primary mt-5 footer-stick" style="font-size: 26px;">
-					<div class="container">
-						QUYẾT ĐỊNH CỦA BẠN - TRÁCH NHIỆM CỦA CHÚNG TÔI <strong>NHẬN BÁO GIÁ</strong> <i class="uil uil-angle-right-b" style="top:3px;"></i>
-					</div>
-				</a>
+					{% endfor %}

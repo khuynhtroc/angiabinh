@@ -10,7 +10,7 @@
 					<div class="row">
 						<div class="col-lg-9">
 							<div class="widget">
-
+ 
 								<img s src="{{ site.url }}/images/logo_angiabinh_250x250_white.png" alt="Image" class="alignleft" style="margin-top: 8px; padding-right: 18px; border-right: 1px solid #4A4A4A;width: 6%;">
 
 								<p>Bê Tông An Gia Bình không chỉ cung cấp sản phẩm chất lượng - chúng tôi xây dựng niềm tin, tạo nên giá trị bền vững cho khách hàng và cộng đồng, đồng hành cùng mọi công trình trên hành trình vươn tới thành công.</p>
@@ -38,7 +38,7 @@
 										</ul>
 									</div>
 
-									<div class="col-lg-3 col-6 widget_links">
+									<!--div class="col-lg-6 col-6 widget_links">
 										<ul>
 											<li><a href="#">Corporate</a></li>
 											<li><a href="#">Agency</a></li>
@@ -46,16 +46,24 @@
 											<li><a href="#">Personal</a></li>
 											<li><a href="#">One Page</a></li>
 										</ul>
-									</div>
+									</div-->
 
-									<div class="col-lg-3 col-6 widget_links">
-										<ul>
-											<li><a href="#">Restaurant</a></li>
-											<li><a href="#">Wedding</a></li>
-											<li><a href="#">App Showcase</a></li>
-											<li><a href="#">Magazine</a></li>
-											<li><a href="#">Landing Page</a></li>
-										</ul>
+									<div class="col-lg-6 col-6 widget_links">
+			
+										<h4>Bài viết mới nhất</h4>
+			
+										<div class="row">
+											{% for post in site.categories.tin-tuc limit:3 %}
+			    							    <div class="ipost clearfix">
+			    							        <div class="entry-title">
+			    							            <ul>
+			    							            	<li><a href="{{ site.url }}{{ post.url }}">{{ post.title }}</a></li>
+			    							            </ul>
+			    							        </div>
+			    							    </div>
+			    							{% endfor %}
+										</div>
+			
 									</div>
 								</div>
 

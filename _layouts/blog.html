@@ -1,0 +1,119 @@
+<!DOCTYPE html> 
+<html dir="ltr" lang="vi-VN">
+<head>
+    {% include head.html %}
+</head>
+
+<body class="stretched">
+
+    {% include _after_body.html %}
+    
+    {% include fb_pixel_events.html %}
+
+    <!-- Document Wrapper
+    ============================================= -->
+    <div id="wrapper" class="clearfix">
+
+        {% include before_header.html %}
+
+        {% include header.html %}
+
+        <!-- Page Title
+        ============================================= -->
+        <section class="page-title bg-transparent">
+            <div class="container">
+                <div class="page-title-row">
+
+                    <div class="page-title-content">
+                        <h1>{{ page.title }}</h1>
+                        <span>{{ page.description }}</span>
+                    </div>
+
+                    <nav aria-label="breadcrumb">
+                        <ol class="breadcrumb">
+                            <li class="breadcrumb-item"><a href="{{ site.url }}">Trang chủ</a></li>
+                            <li class="breadcrumb-item active" aria-current="page"><a href="{{ page.url }}">{{ page.title }}</a></li>
+                        </ol>
+                    </nav>
+
+                </div>
+            </div>
+        </section><!-- .page-title end -->
+
+        
+        <!-- Content
+        ============================================= -->
+        <section id="content">
+            <div class="content-wrap">
+                <div class="container">
+
+                    <!-- Posts
+                    ============================================= -->
+                    <div id="posts" class="post-grid row grid-container gutter-30">
+
+                        {{ content }}
+
+
+                    </div><!-- #posts end -->
+
+                    <div class="page-load-status">
+                        <div class="css3-spinner infinite-scroll-request">
+                            <div class="css3-spinner-ball-pulse-sync">
+                                <div></div>
+                                <div></div>
+                                <div></div>
+                            </div>
+                        </div>
+                        <div class="alert alert-warning text-center infinite-scroll-last mx-auto" style="max-width: 20rem;">End of content</div>
+                        <div class="alert alert-warning text-center infinite-scroll-error mx-auto" style="max-width: 20rem;">No more pages to load</div>
+                    </div>
+
+                    <!-- Pagination
+                    ============================================= -->
+                    <div class="text-center d-none">
+                        <a href="blog-masonry-page-2.html" class="button button-3d button-dark button-large button-rounded load-next-posts">Load more..</a>
+                    </div>
+
+                </div>
+            </div>
+        </section><!-- #content end -->
+
+        {% include footer.html %}
+
+    </div><!-- #wrapper end -->
+
+
+    {% include script.html %}
+
+    <!-- JavaScripts
+    ============================================= -->
+    <script src="{{ site.url }}/assets/js/plugins.min.js"></script>
+    <script src="{{ site.url }}/assets/js/functions.bundle.js"></script>
+    <script src="{{ site.url }}/assets/js/plugins.infinitescroll.js"></script>
+
+    <script>
+        jQuery(window).on( 'load', function(){
+            var $container = jQuery('#posts');
+
+            $container.infiniteScroll({
+                path: '.load-next-posts',
+                history: false,
+                status: '.page-load-status'
+            });
+
+            $container.on( 'load.infiniteScroll', function( event, response, path ) {
+                var $items = jQuery( response ).find('#posts .entry');
+                // append items after images loaded
+                $items.imagesLoaded( function() {
+                    $container.append( $items );
+                    $container.isotope( 'insert', $items );
+                    setTimeout( function(){
+                        $container.isotope('layout');
+                        SEMICOLON.Core.runModules();
+                    }, 1000 );
+                });
+            });
+        });
+    </script>
+</body>
+</html>
