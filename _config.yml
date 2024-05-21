@@ -2,11 +2,11 @@ name: "Bê Tông Thương Phẩm An Gia Bình"
 title: "Bê Tông An Gia Bình"
 slogan: "Bê Tông Thương Phẩm Số 1 Ninh Bình"
 description: ""
-email: "darius@tanbinhchi.vn"
+email: "betongangiabinh@gmail.com"
 url: ""
 # url: ""
 baseurl: ""
-phone: "+84985629621"
+phone: "+84978383555"
 allow_search_engine: false
 # paypal: ""
 google_verify: ""
@@ -48,6 +48,8 @@ future: true
 gems:
   - jekyll-redirect-from
   - jekyll-paginate
+  - jekyll-seo-tag
+  - jekyll-toc
   # - jekyll-related-posts
   # http://jekyllrb.com/docs/templates/#gist
   # - jekyll-gist
@@ -66,7 +68,13 @@ collections:
   authors:
     output: true
   
-
+toc:
+    min_level: 1
+    max_level: 4
+  no_toc_section_class: exclude # default: no_toc_section
+    - no_toc_section
+    - exclude
+    - your_custom_skip_class_name
 
 related:
   max_count: 5

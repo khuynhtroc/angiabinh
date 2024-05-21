@@ -346,7 +346,7 @@ redirect_from:
 											</ul-->
 										</div>
 										<div class="entry-content">
-											<p>{{ post.excerpt }}</p>
+											<p>{{ post.content | strip_html | truncatewords: 30 }}</p>
 										</div>
 									</div>
 								</div>

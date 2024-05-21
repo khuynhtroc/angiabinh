@@ -11,6 +11,7 @@ tags: bảo-dưỡng-bê-tông
 permalink: "/bao-duong-be-tong-sau-khi-thi-cong.html"
 published: true
 sitemap: true
+toc: true
 image: "/construction/images/projects/3.jpg"
 date: 2024-05-20 00:30:00
 author: "Trọng Huỳnh"
