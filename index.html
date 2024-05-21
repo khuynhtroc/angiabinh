@@ -65,57 +65,6 @@ redirect_from:
 
 				</div>
 			</br>
-				<!--div class="section parallax scroll-detect dark" style="padding: 120px 0;">
-					<img src="construction/images/slider/1.jpg" class="parallax-bg">
-
-					<div class="fslider" data-arrows="false" style="z-index: 2;">
-						<div class="owl-carousel carousel-widget text-center mw-xs mx-auto dark" data-items="1" data-autoplay="5000" data-nav="false">
-							<div class="row">
-								<div class="col-12">
-									<img class="rounded-circle mx-auto w-auto mb-4" src="construction/images/testimonials/1.jpg" width="64" height="64" alt="Customer Testimonails">
-									<h3 class="mb-4 lh-base fw-normal font-secondary">Seamlessly Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quia rerum porro est delectus ad in vitae neque nostrum nesciunt.</h3>
-								</div>
-								<div class="d-flex align-items-center justify-content-center">
-									<div>
-										<h4 class="h6 mb-0 fw-medium">Alex Coman</h4>
-										<small class="text-white-50">Apple Inc.</small>
-									</div>
-								</div>
-							</div>
-
-							<div class="row">
-								<div class="col-12">
-									<img class="rounded-circle mx-auto w-auto mb-4" src="construction/images/testimonials/2.jpg" width="64" height="64" alt="Customer Testimonails">
-									<h3 class="mb-4 lh-base fw-normal font-secondary">Seamlessly conceptualize multimedia based web services for optimal human capital. Collaboratively evisculate e-business value.</h3>
-								</div>
-								<div class="d-flex align-items-center justify-content-center">
-									<div>
-										<h4 class="h6 mb-0 fw-medium">John Coman</h4>
-										<small class="text-white-50">Apple Inc.</small>
-									</div>
-								</div>
-							</div>
-
-							<div class="row">
-								<div class="col-12">
-									<img class="rounded-circle mx-auto w-auto mb-4" src="construction/images/testimonials/3.jpg" width="64" height="64" alt="Customer Testimonails">
-									<h3 class="mb-4 lh-base fw-normal font-secondary">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestias facilis ea voluptatem cum.</h3>
-								</div>
-								<div class="d-flex align-items-center justify-content-center">
-									<div>
-										<h4 class="h6 mb-0 fw-medium">Ricky Coman</h4>
-										<small class="text-white-50">Apple Inc.</small>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-
-					<div class="video-wrap" style="z-index: 1;">
-						<div class="video-overlay" style="background: rgba(241,128,82,0.9);"></div>
-					</div>
-
-				</div-->
 
 				<div class="container">
 
@@ -196,149 +145,25 @@ redirect_from:
 
 				<div id="portfolio" class="portfolio row g-0">
 
-					<article class="portfolio-item col-12 col-sm-6 col-md-4 col-lg-3 pf-media pf-icons">
-						<div class="grid-inner">
-							<div class="portfolio-image">
-								<img src="construction/images/projects/1.jpg" alt="The Atmosphere">
-								<div class="bg-overlay">
-									<div class="bg-overlay-content dark" data-hover-animate="fadeIn">
-										<a href="#" class="overlay-trigger-icon bg-light text-dark" data-hover-animate="zoomIn" data-hover-animate-out="zoomOut" data-hover-speed="350"><i class="uil uil-ellipsis-h"></i></a>
-									</div>
-									<div class="bg-overlay-bg dark" data-hover-animate="fadeIn"></div>
-								</div>
-							</div>
-							<div class="portfolio-desc">
-								<h3><a href="#">The Atmosphere</a></h3>
-								<span>Chicago, USA</span>
-							</div>
-						</div>
-					</article>
-
+					{% for post in site.categories.du-an limit:8 %}
 					<article class="portfolio-item col-12 col-sm-6 col-md-4 col-lg-3 pf-illustrations">
 						<div class="grid-inner">
 							<div class="portfolio-image">
-								<img src="construction/images/projects/2.jpg" alt="Wavelength Structure">
+								<img src="{{ site.url }}{{ post.image }}" alt="Wavelength Structure">
 								<div class="bg-overlay">
 									<div class="bg-overlay-content dark" data-hover-animate="fadeIn">
-										<a href="#" class="overlay-trigger-icon bg-light text-dark" data-hover-animate="zoomIn" data-hover-animate-out="zoomOut" data-hover-speed="350"><i class="uil uil-ellipsis-h"></i></a>
+										<a href="{{ site.url }}{{ post.url }}" class="overlay-trigger-icon bg-light text-dark" data-hover-animate="zoomIn" data-hover-animate-out="zoomOut" data-hover-speed="350"><i class="uil uil-ellipsis-h"></i></a>
 									</div>
 									<div class="bg-overlay-bg dark" data-hover-animate="fadeIn"></div>
 								</div>
 							</div>
 							<div class="portfolio-desc">
-								<h3>Wavelength Structure</h3>
-								<span>Madrid, Spain</span>
+								<h3><a href="{{ site.url }}{{ post.url }}">{{ post.title }}</a></h3>
+								<span>{{ post.location }}</span>
 							</div>
 						</div>
 					</article>
-
-					<article class="portfolio-item col-12 col-sm-6 col-md-4 col-lg-3 pf-graphics pf-uielements">
-						<div class="grid-inner">
-							<div class="portfolio-image">
-								<img src="construction/images/projects/3.jpg" alt="Greenhouse Garden">
-								<div class="bg-overlay">
-									<div class="bg-overlay-content dark" data-hover-animate="fadeIn">
-										<a href="#" class="overlay-trigger-icon bg-light text-dark" data-hover-animate="zoomIn" data-hover-animate-out="zoomOut" data-hover-speed="350"><i class="uil uil-ellipsis-h"></i></a>
-									</div>
-									<div class="bg-overlay-bg dark" data-hover-animate="fadeIn"></div>
-								</div>
-							</div>
-							<div class="portfolio-desc">
-								<h3>Greenhouse Garden</h3>
-								<span>Bali, Indonesia</span>
-							</div>
-						</div>
-					</article>
-
-					<article class="portfolio-item col-12 col-sm-6 col-md-4 col-lg-3 pf-icons pf-illustrations">
-						<div class="grid-inner">
-							<div class="portfolio-image">
-								<img src="construction/images/projects/4.jpg" alt="Industrial Hub">
-								<div class="bg-overlay">
-									<div class="bg-overlay-content dark" data-hover-animate="fadeIn">
-										<a href="#" class="overlay-trigger-icon bg-light text-dark" data-hover-animate="zoomIn" data-hover-animate-out="zoomOut" data-hover-speed="350"><i class="uil uil-ellipsis-h"></i></a>
-									</div>
-									<div class="bg-overlay-bg dark" data-hover-animate="fadeIn"></div>
-								</div>
-							</div>
-							<div class="portfolio-desc">
-								<h3>Industrial Hub</h3>
-								<span>Beijing, China</span>
-							</div>
-						</div>
-					</article>
-
-					<article class="portfolio-item col-12 col-sm-6 col-md-4 col-lg-3 pf-uielements pf-media">
-						<div class="grid-inner">
-							<div class="portfolio-image">
-								<img src="construction/images/projects/5.jpg" alt="Corporate Headquarters">
-								<div class="bg-overlay">
-									<div class="bg-overlay-content dark" data-hover-animate="fadeIn">
-										<a href="#" class="overlay-trigger-icon bg-light text-dark" data-hover-animate="zoomIn" data-hover-animate-out="zoomOut" data-hover-speed="350"><i class="uil uil-ellipsis-h"></i></a>
-									</div>
-									<div class="bg-overlay-bg dark" data-hover-animate="fadeIn"></div>
-								</div>
-							</div>
-							<div class="portfolio-desc">
-								<h3>Corporate Headquarters</h3>
-								<span>California, USA</span>
-							</div>
-						</div>
-					</article>
-
-					<article class="portfolio-item col-12 col-sm-6 col-md-4 col-lg-3 pf-graphics pf-illustrations">
-						<div class="grid-inner">
-							<div class="portfolio-image">
-								<img src="construction/images/projects/6.jpg" alt="Space Station">
-								<div class="bg-overlay">
-									<div class="bg-overlay-content dark" data-hover-animate="fadeIn">
-										<a href="#" class="overlay-trigger-icon bg-light text-dark" data-hover-animate="zoomIn" data-hover-animate-out="zoomOut" data-hover-speed="350"><i class="uil uil-ellipsis-h"></i></a>
-									</div>
-									<div class="bg-overlay-bg dark" data-hover-animate="fadeIn"></div>
-								</div>
-							</div>
-							<div class="portfolio-desc">
-								<h3>Space Station</h3>
-								<span>Moscow, Russia</span>
-							</div>
-						</div>
-					</article>
-
-					<article class="portfolio-item col-12 col-sm-6 col-md-4 col-lg-3 pf-uielements pf-icons">
-						<div class="grid-inner">
-							<div class="portfolio-image">
-								<img src="construction/images/projects/7.jpg" alt="Bent Architecture">
-								<div class="bg-overlay">
-									<div class="bg-overlay-content dark" data-hover-animate="fadeIn">
-										<a href="#" class="overlay-trigger-icon bg-light text-dark" data-hover-animate="zoomIn" data-hover-animate-out="zoomOut" data-hover-speed="350"><i class="uil uil-ellipsis-h"></i></a>
-									</div>
-									<div class="bg-overlay-bg dark" data-hover-animate="fadeIn"></div>
-								</div>
-							</div>
-							<div class="portfolio-desc">
-								<h3>Bent Architecture</h3>
-								<span>Melbourne, Australia</span>
-							</div>
-						</div>
-					</article>
-
-					<article class="portfolio-item col-12 col-sm-6 col-md-4 col-lg-3 pf-graphics">
-						<div class="grid-inner">
-							<div class="portfolio-image">
-								<img src="construction/images/projects/8.jpg" alt="Lakeview Center">
-								<div class="bg-overlay">
-									<div class="bg-overlay-content dark" data-hover-animate="fadeIn">
-										<a href="#" class="overlay-trigger-icon bg-light text-dark" data-hover-animate="zoomIn" data-hover-animate-out="zoomOut" data-hover-speed="350"><i class="uil uil-ellipsis-h"></i></a>
-									</div>
-									<div class="bg-overlay-bg dark" data-hover-animate="fadeIn"></div>
-								</div>
-							</div>
-							<div class="portfolio-desc">
-								<h3>Lakeview Center</h3>
-								<span>Auckland, New Zealand</span>
-							</div>
-						</div>
-					</article>
+					{% endfor %} 
 
 				</div>
 
@@ -470,9 +295,9 @@ redirect_from:
 											<div class="css3-spinner-scaler"></div>
 										</div>
 									</div>
-									<input type="text" class="required form-control mb-2" id="quick-contact-form-name" name="quick-contact-form-name" value="" placeholder="Full Name">
-									<input type="text" class="required form-control email mb-2" id="quick-contact-form-email" name="quick-contact-form-email" value="" placeholder="Email Address">
-									<textarea class="required form-control mb-2 short-textarea" id="quick-contact-form-message" name="quick-contact-form-message" rows="4" cols="30" placeholder="Message"></textarea>
+									<input type="text" class="required form-control mb-2" id="quick-contact-form-name" name="quick-contact-form-name" value="" placeholder="Họ và tên">
+									<input type="text" class="required form-control email mb-2" id="quick-contact-form-email" name="quick-contact-form-email" value="" placeholder="Địa chỉ Email">
+									<textarea class="required form-control mb-2 short-textarea" id="quick-contact-form-message" name="quick-contact-form-message" rows="4" cols="30" placeholder="Lời nhắn"></textarea>
 									<input type="text" class="d-none" id="quick-contact-form-botcheck" name="quick-contact-form-botcheck" value="">
 									<input type="hidden" name="prefix" value="quick-contact-form-">
 									<button type="submit" id="quick-contact-form-submit" name="quick-contact-form-submit" class="button button-small button-3d m-0" value="submit">Gửi email</button>
@@ -489,7 +314,7 @@ redirect_from:
 						<div class="col-md-5">
 							<h4>Đối Tác Đồng Hành</h4>
 
-							<p>Chúng tôi đánh giá cao Khách hàng của mình hơn mọi thứ khác. Chúng tôi cố gắng cung cấp Dịch vụ Chất lượng cho tất cả Khách hàng của chúng tôi trên Cơ sở Ưu tiên. Bạn được mời tham gia Danh sách khách hàng của chúng tôi và tận hưởng Dịch vụ của chúng tôi. <a href="#">Xem thêm...</a></p>
+							<p>Chúng tôi đánh giá cao Khách hàng của mình hơn mọi thứ khác. Chúng tôi cố gắng cung cấp Dịch vụ Chất lượng cho tất cả Khách hàng của chúng tôi trên Cơ sở Ưu tiên. Bạn được mời tham gia Danh sách khách hàng của chúng tôi và tận hưởng Dịch vụ của chúng tôi. <a href="/doi-tac-hop-tac">Xem thêm...</a></p>
 
 							<ul class="clients-grid row row-cols-2 row-cols-sm-3 mb-0">
 								<li class="grid-item" style="padding: 20px;"><a href="#"><img src="construction/images/clients/1.png" alt="Clients"></a></li>
@@ -506,73 +331,27 @@ redirect_from:
 
 							<div id="oc-posts" class="owl-carousel posts-carousel carousel-widget posts-md" data-margin="20" data-nav="true" data-pagi="true" data-items-xs="1" data-items-xl="2">
 
+								{% for post in site.categories.tin-tuc %}
 								<div class="oc-item">
 									<div class="entry">
 										<div class="entry-image">
-											<a href="construction/images/blog/5.jpg" data-lightbox="image"><img src="construction/images/blog/5.jpg" alt="Standard Post with Image"></a>
+											<a href="{{ site.url }}{{ post.url }}" data-lightbox="image"><img src="{{ site.url }}{{ post.image }}" alt="{{ post.title }}"></a>
 										</div>
 										<div class="entry-title title-sm text-transform-none">
-											<h3><a href="#">Upcoming Projects in Australia</a></h3>
+											<h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
 										</div>
 										<div class="entry-meta">
-											<ul>
-												<li>10th Feb 2021</li>
-												<li><a href="#comments">13 Comments</a></li>
-											</ul>
+											<!--ul>
+												<li>{{ post.date | date_to_string }}</li>
+											</ul-->
 										</div>
 										<div class="entry-content">
-											<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate, asperiores quod est tenetur in.</p>
+											<p>{{ post.excerpt }}</p>
 										</div>
 									</div>
 								</div>
+								{% endfor %}
 
-								<div class="oc-item">
-									<div class="entry">
-										<div class="entry-image">
-											<div class="fslider" data-arrows="false" data-lightbox="gallery">
-												<div class="flexslider">
-													<div class="slider-wrap">
-														<div class="slide"><a href="construction/images/blog/2.jpg" data-lightbox="gallery-item"><img src="construction/images/blog/2.jpg" alt="Standard Post with Gallery"></a></div>
-														<div class="slide"><a href="construction/images/blog/1.jpg" data-lightbox="gallery-item"><img src="construction/images/blog/1.jpg" alt="Standard Post with Gallery"></a></div>
-														<div class="slide"><a href="construction/images/blog/3.jpg" data-lightbox="gallery-item"><img src="construction/images/blog/3.jpg" alt="Standard Post with Gallery"></a></div>
-													</div>
-												</div>
-											</div>
-										</div>
-										<div class="entry-title title-sm text-transform-none">
-											<h3><a href="#">Real Estate just got a little more Expensive</a></h3>
-										</div>
-										<div class="entry-meta">
-											<ul>
-												<li>24th Feb 2021</li>
-												<li><a href="#comments">21 Comments</a></li>
-											</ul>
-										</div>
-										<div class="entry-content">
-											<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione, voluptatem, dolorem animi nisi autem!</p>
-										</div>
-									</div>
-								</div>
-
-								<div class="oc-item">
-									<div class="entry">
-										<div class="entry-image">
-											<a href="construction/images/blog/4.jpg" data-lightbox="image"><img src="construction/images/blog/4.jpg" alt="Standard Post with Image"></a>
-										</div>
-										<div class="entry-title title-sm text-transform-none">
-											<h3><a href="#">Global Excellence Construction Award</a></h3>
-										</div>
-										<div class="entry-meta">
-											<ul>
-												<li>5th May 2021</li>
-												<li><a href="#comments">6 Comments</a></li>
-											</ul>
-										</div>
-										<div class="entry-content">
-											<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate, asperiores quod est tenetur in.</p>
-										</div>
-									</div>
-								</div>
 
 							</div>
 

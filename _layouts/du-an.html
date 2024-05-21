@@ -46,73 +46,12 @@
             <div class="content-wrap">
                 <div class="container">
 
-                    <div class="row g-5 py-md-5">
+                    {{ content }}
 
-                        <!-- Portfolio Single Image
-                        ============================================= -->
-                        <div class="col-lg-7 col-xl-8 portfolio-single-image">
-                            <a href="{{ site.url }}">
-                                <img src="{{ site.url }}{{ post.image }}" alt="{{ post.title }}" class="rounded-6">
-                            </a>
-                        </div><!-- .portfolio-single-image end -->
-
-                        <!-- Portfolio Single Content
-                        ============================================= -->
-                        <div class="col-lg-5 col-xl-4 portfolio-single-content px-5 ps-xl-5 pt-xl-4">
-
-                            {{ content }}
-
-                            <a href="#" class="text-medium">Visit this Project <i class="bi-arrow-up-right-circle-fill ms-1 align-middle fs-5 position-relative" style="top:-2px;"></i></a>
-
-                            <!-- Portfolio Single - Share
-                            ============================================= -->
-                            <div class="card mt-6 pt-4 border-0 border-top rounded-0 border-default">
-                                <div class="card-body p-0">
-                                    <div class="d-flex align-items-center justify-content-between">
-                                        <h6 class="fs-6 fw-semibold mb-0">Share:</h6>
-                                        <div class="d-flex">
-                                            <a href="#" class="social-icon si-small text-white border-transparent rounded-circle bg-facebook" title="Facebook">
-                                                <i class="fa-brands fa-facebook-f"></i>
-                                                <i class="fa-brands fa-facebook-f"></i>
-                                            </a>
-
-                                            <a href="#" class="social-icon si-small text-white border-transparent rounded-circle bg-twitter" title="Twitter">
-                                                <i class="fa-brands fa-twitter"></i>
-                                                <i class="fa-brands fa-twitter"></i>
-                                            </a>
-
-                                            <a href="#" class="social-icon si-small text-white border-transparent rounded-circle bg-pinterest" title="Pinterest">
-                                                <i class="fa-brands fa-pinterest-p"></i>
-                                                <i class="fa-brands fa-pinterest-p"></i>
-                                            </a>
-
-                                            <a href="#" class="social-icon si-small text-white border-transparent rounded-circle bg-whatsapp" title="Whatsapp">
-                                                <i class="fa-brands fa-whatsapp"></i>
-                                                <i class="fa-brands fa-whatsapp"></i>
-                                            </a>
-
-                                            <a href="#" class="social-icon si-small text-white border-transparent rounded-circle bg-rss" title="RSS">
-                                                <i class="fa-solid fa-rss"></i>
-                                                <i class="fa-solid fa-rss"></i>
-                                            </a>
-
-                                            <a href="#" class="social-icon si-small text-white border-transparent rounded-circle bg-email3 me-0" title="Mail">
-                                                <i class="fa-solid fa-envelope"></i>
-                                                <i class="fa-solid fa-envelope"></i>
-                                            </a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- Portfolio Single - Share End -->
-
-                        </div><!-- .portfolio-single-content end -->
-
-                    </div>
 
                     <!-- Related Portfolio Items
                     ============================================= -->
-                    <h4 class="fs-4 fw-medium">Dự án tiêu biểu khác</h4>
+                    <h4 class="fs-4 fw-medium card mt-6 pt-4 border-0 border-top rounded-0 border-default">Dự án tiêu biểu khác cung cấp bởi Bê Tông An Gia Bình</h4>
                     
                     <div id="related-portfolio" class="owl-carousel portfolio-carousel carousel-widget" data-margin="20" data-pagi="false" data-autoplay="5000" data-items-xs="1" data-items-sm="2" data-items-md="3" data-items-lg="4">
                     {% for post in site.categories.du-an %}
