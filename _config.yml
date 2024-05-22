@@ -47,7 +47,7 @@ future: true
 
 gems:
   - jekyll-redirect-from
-  - jekyll-paginate
+  #- jekyll-paginate
   - jekyll-seo-tag
   - jekyll-toc
   # - jekyll-related-posts
@@ -71,7 +71,6 @@ collections:
 toc:
     min_level: 1
     max_level: 4
-  no_toc_section_class: exclude # default: no_toc_section
 
 
 related:

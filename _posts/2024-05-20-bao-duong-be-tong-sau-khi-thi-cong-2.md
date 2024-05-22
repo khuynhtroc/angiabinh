@@ -8,7 +8,7 @@ meta-keywords: "bảo dưỡng bê tông, bê tông thi công, kinh nghiệm b�
 categories: tin-tuc
 category: "Kinh nghiệm"
 tags: bảo-dưỡng-bê-tông
-permalink: "/bao-duong-be-tong-sau-khi-thi-cong.html"
+permalink: "/bao-duong-be-tong-sau-khi-thi-cong-2.html"
 published: true
 sitemap: true
 toc: true
