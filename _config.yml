@@ -72,9 +72,7 @@ toc:
     min_level: 1
     max_level: 4
   no_toc_section_class: exclude # default: no_toc_section
-    - no_toc_section
-    - exclude
-    - your_custom_skip_class_name
+
 
 related:
   max_count: 5
