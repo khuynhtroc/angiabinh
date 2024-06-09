@@ -33,7 +33,7 @@
 								<i class="i-plain bi-envelope m-0"></i>
 								<div class="he-text">
 									NHẬN BÁO GIÁ QUA EMAIL
-									<span><input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email"></span>
+									<span><input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Nhập email"></span>
 								</div>
 							</li>
 						</ul>
@@ -80,7 +80,14 @@
 								</li>
 								<li class="menu-item"><a class="menu-link" href="{{ site.url }}/dich-vu/"><div>Lĩnh vực hoạt động</div></a>
 									<ul class="sub-menu-container">
-										<li class="menu-item"><a class="menu-link" href="{{ site.url }}/be-tong-tuoi/"><div>Bê tông tươi</div></a></li>
+										<li class="menu-item"><a class="menu-link" href="{{ site.url }}/be-tong-tuoi/"><div>Bê tông tươi</div></a>
+											<ul class="sub-menu-container">
+												<li class="menu-item"><a class="menu-link" href="{{ site.url }}/be-tong-tuoi/be-tong-thuong/"><div>Bê tông thường</div></a></li>
+												<li class="menu-item"><a class="menu-link" href="{{ site.url }}/be-tong-tuoi/be-tong-chong-tham/"><div>Bê tông chống thấm</div></a></li>
+												<li class="menu-item"><a class="menu-link" href="{{ site.url }}/be-tong-tuoi/be-tong-chat-luong-cao/"><div>Bê tông chất lượng cao</div></a></li>
+												<li class="menu-item"><a class="menu-link" href="{{ site.url }}/be-tong-tuoi/be-tong-ninh-ket-cham/"><div>Bê tông ninh kết chậm</div></a></li>
+											</ul>
+										</li>										
 										<li class="menu-item"><a class="menu-link" href="{{ site.url }}/be-tong-thuong-pham/"><div>Bê tông thương phẩm</div></a></li>
 										<li class="menu-item"><a class="menu-link" href="{{ site.url }}/bom-be-tong/"><div>Bơm bê tông</div></a></li>
 										<li class="menu-item"><a class="menu-link" href="{{ site.url }}/be-tong-sieu-nhe/"><div>Bê tông siêu nhẹ</div></a></li>
@@ -99,7 +106,7 @@
 						</nav><!-- #primary-menu end -->
 
 						<form class="top-search-form" action="search.html" method="get">
-							<input type="text" name="q" class="form-control" value="" placeholder="Bê tông tươi... " autocomplete="off">
+							<input type="text" name="q" class="form-control" value="" placeholder="Bê tông tươi M400R28... " autocomplete="off">
 						</form>
 
 					</div>
@@ -138,9 +145,7 @@
 		  "name" : "{{ site.name }}",
 		  "url" : "{{ site.url }}",
 		  "sameAs" : [
-		    "https://www.facebook.com/tanbinhchi.vn/",
-		    "https://twitter.com/tanbinhchi",
-		    "https://plus.google.com/u/7/100185032616610319793"
+		    "https://www.facebook.com/betongangiabinh/",
 		    
 		  ]
 		}
