@@ -1,0 +1,65 @@
+<!DOCTYPE html> 
+<html dir="ltr" lang="vi-VN">
+<head>
+    {% include head.html %}
+
+</head>
+
+<body class="stretched">
+
+    {% include _after_body.html %}
+    
+    {% include fb_pixel_events.html %}
+
+    <!-- Document Wrapper
+    ============================================= -->
+    <div id="wrapper" class="clearfix">
+
+        {% include before_header.html %}
+
+        {% include header.html %}
+
+        <!-- Page Title
+        ============================================= -->
+        <section class="page-title page-title-parallax parallax scroll-detect dark">
+            <img src="{{ site.url }}/images/doi-ngu-nhan-su-be-tong-an-gia-binh-2.jpg" style="background-position: bottom;" class="parallax-bg">
+            <div class="container">
+                <div class="page-title-row">
+
+                    <div class="page-title-content">
+                        <h1>{{ page.title }}</h1>
+                        <span>{{ page.description }}</span>
+                    </div>
+
+                    <nav aria-label="breadcrumb">
+                        <ol class="breadcrumb">
+                            <li class="breadcrumb-item"><a href="{{ site.url }}">Trang chủ</a></li>
+                            <li class="breadcrumb-item active" aria-current="page">{{ page.title }}</li>
+                        </ol>
+                    </nav>
+
+                </div>
+            </div>
+        </section><!-- .page-title end -->
+        
+        <!-- Content
+        ============================================= -->
+        <section id="content">
+
+            <div class="content-wrap">
+
+                {{ content }}
+
+            </div>
+
+        </section><!-- #content end -->
+
+        {% include footer.html %}
+
+    </div><!-- #wrapper end -->
+
+
+    {% include script.html %}
+
+</body>
+</html>
