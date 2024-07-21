@@ -20,21 +20,24 @@
 
         <!-- Page Title
         ============================================= -->
-        <section class="page-title bg-transparent">
+        <section class="page-title py-6">
             <div class="container">
-                <div class="page-title-row">
+                <div class="page-title-row pb-5 align-items-lg-end">
 
                     <div class="page-title-content">
                         <h1>{{ page.title }}</h1>
                         <span>{{ page.description }}</span>
-                    </div>
 
-                    <nav aria-label="breadcrumb">
-                        <ol class="breadcrumb">
-                            <li class="breadcrumb-item"><a href="{{ site.url }}">Trang chủ</a></li>
-                            <li class="breadcrumb-item active" aria-current="page"><a href="{{ page.url }}">{{ page.title }}</a></li>
-                        </ol>
-                    </nav>
+                        <div class="page-title-buttons mt-5">
+                            <a href="{{ site.url }}/blog/tin-tuc/" class="button button-border rounded px-5 mb-0">Tin Tức</a>
+                            <a href="{{ site.url }}/blog/kinh-nghiem/" class="button button-border rounded px-5 mb-0">Kinh Nghiệm</a>
+                            <a href="{{ site.url }}/blog/kien-thuc/" class="button button-border rounded px-5 mb-0">Kiến Thức</a>
+                        </div>
+                    </div>
+                    <ol class="breadcrumb">
+                        <li class="breadcrumb-item"><a href="{{ site.url }}">Trang chủ</a></li>
+                        <li class="breadcrumb-item active" aria-current="page"><a href="{{ page.url }}">{{ page.title }}</a></li>
+                    </ol>                    
 
                 </div>
             </div>

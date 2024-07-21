@@ -1,0 +1,72 @@
+<!DOCTYPE html> 
+<html dir="ltr" lang="vi-VN">
+<head>
+    {% include head.html %}
+</head>
+
+<body class="stretched">
+
+    {% include _after_body.html %}
+    
+    {% include fb_pixel_events.html %}
+
+    <!-- Document Wrapper
+    ============================================= -->
+    <div id="wrapper" class="clearfix">
+
+        {% include before_header.html %}
+
+        {% include header.html %}
+
+        <!-- Page Title
+        ============================================= -->
+        <section class="page-title py-6">
+            <div class="container">
+                <div class="page-title-row pb-5 align-items-lg-end">
+
+                    <div class="page-title-content">
+                        <h1>{{ page.title }}</h1>
+                        <span>{{ page.description }}</span>
+
+                        <div class="page-title-buttons mt-5">
+                            <a href="{{ site.url }}/blog/tin-tuc/" class="button button-border rounded px-5 mb-0">Tin Tức</a>
+                            <a href="{{ site.url }}/blog/kinh-nghiem/" class="button button-border rounded px-5 mb-0">Kinh Nghiệm</a>
+                            <a href="{{ site.url }}/blog/kien-thuc/" class="button button-border rounded px-5 mb-0">Kiến Thức</a>
+                        </div>
+                    </div>
+                    <ol class="breadcrumb">
+                        <li class="breadcrumb-item"><a href="{{ site.url }}">Trang chủ</a></li>
+                        <li class="breadcrumb-item active" aria-current="page"><a href="{{ page.url }}">{{ page.title }}</a></li>
+                    </ol>                    
+
+                </div>
+            </div>
+        </section><!-- .page-title end -->
+
+        
+        <!-- Content
+        ============================================= -->
+        <section id="content">
+            <div class="content-wrap">
+                <div class="container">
+
+                    {{ content }}
+
+                </div>
+            </div>
+        </section><!-- #content end -->
+
+        {% include footer.html %}
+
+    </div><!-- #wrapper end -->
+
+
+    {% include script.html %}
+
+    <!-- JavaScripts
+    ============================================= -->
+    <script src="{{ site.url }}/assets/js/plugins.min.js"></script>
+    <script src="{{ site.url }}/assets/js/functions.bundle.js"></script>
+    <script src="{{ site.url }}/assets/js/plugins.infinitescroll.js"></script>
+</body>
+</html>
