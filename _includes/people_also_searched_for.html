@@ -1,6 +1,6 @@
 {% if(page.meta-keywords) %}
 {% assign keywords = page.meta-keywords | split: ', ' %}
-<h3>Từ khóa tìm kiếm ngày <span id="date"></span>:</h3>
+<h3 style="font-size: 20px;">Từ khóa tìm kiếm ngày <span id="date"></span>:</h3>
 <ul class="list-style" style="margin-left: 2em;">
 	{% for kw in keywords %}
 	<li>{{ kw }}</li>

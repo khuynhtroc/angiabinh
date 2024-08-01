@@ -5,15 +5,15 @@ h1-title: "Bảo Dưỡng Bê Tông Đúng Cách Sau Khi Thi Công"
 meta-title: "Bảo Dưỡng Bê Tông Đúng Cách Sau Khi Thi Công"
 meta-description: ""
 meta-keywords: "bảo dưỡng bê tông, bê tông thi công, kinh nghiệm bảo dưỡng bê tông thi công, thi công và bảo dưỡng bê tông, bảo dưỡng bê tông như thế nào"
-categories: tin-tuc
+categories: kien-thuc blog
 category: "Kinh nghiệm"
 tags: bảo-dưỡng-bê-tông
 permalink: "/bao-duong-be-tong-sau-khi-thi-cong.html"
 published: true
 sitemap: true
 toc: true
-image: "/construction/images/projects/3.jpg"
-date: 2024-05-20 00:30:00
+image: "/images/blog/bao-duong-be-tong-sau-khi-do-dung-cach-2.jpg"
+date: 2024-08-04 00:30:00
 author: "Trọng Huỳnh"
 ---
 
@@ -29,6 +29,8 @@ Một trong những cách đơn giản nhất là giữ nguyên cốp pha không
 
 Sử dụng tấm bạt để che chắn cho bê tông.
 
+![Bê tông thương phẩm An Gia Bình]({{ site.url }}/images/blog/bao-duong-be-tong-sau-khi-do-dung-cach-2.jpg)
+
 ### Phun nước và ngâm nước giữ độ ẩm
 
 Việc phun nước giữ ẩm cho cốp pha gỗ là cách giữ ẩm hiệu quả. Nên phun đều, và không để sót diện tích khô tránh tình trạng rạng chân chim. Phun nước theo chu kỳ không đổi, đều đặn, liên tục và không được đổ ào mà phải phun tia li ti.
@@ -37,10 +39,14 @@ Lợi dụng mặt phẳng tiện lợi khi đổ bê tông sàn mái để xây
 
 Phun đều tất cả bề mặt của bê tông. Tránh bỏ xót
 
+![Bê tông thương phẩm An Gia Bình]({{ site.url }}/images/blog/bao-duong-be-tong-sau-khi-do-dung-cach-1.jpg)
+
 ## 2. Thời gian đông cứng của bê tông
 
 Chất lượng bê tông là yêu cầu then chốt để quyết định công trình đó có đạt chất lượng hay không. Thêm vào đó thời gian đông cứng của bê tông cũng là yêu cầu không thể bỏ sót. Hay nói cách khác là khi bạn được phép tháo dỡ cốp pha.
 
 Khi thấy cấu kiện bê tông đã đạt đủ sức bền vật liệu để ổn định kết cấu. Ba đến bốn tuần là thời gian hợp lý để tháo dỡ cốp pha trong điều kiện môi trường ổn định. Sau khi tháo dỡ cốp pha, cần chú ý rằng bê tông mới chỉ đạt đến cường độ tĩnh tải. Nếu bắt buộc phải tháo dỡ cốp pha sớm thì phải tiếp tục chống đỡ các cấu kiện như sàn, dầm.
+
+![Bê tông thương phẩm An Gia Bình]({{ site.url }}/images/blog/bao-duong-be-tong-sau-khi-do-dung-cach-3.jpg)
 
 Công việc bảo dưỡng bê tông sau khi đổ là một bước cần thiết để giúp cho công trình xây dựng đạt được chất lượng tốt nhất. Có như vậy thì phần thiết kế bên ngoài mới trở nên nhẹ nhàng hơn. Để làm được điều đó, các kĩ sư xây dựng luôn đặc biệt quan tâm đến cách bảo dưỡng bê tông sau khi đổ và thời gian đông cứng của bê tông. Hiện tại trên thị trường có một vài loại tấm bê tông nhẹ hiện đại, chủ đầu tư cũng có thể tham khảo để kết hợp mang lại sự hiệu quả tốt nhất cho công trình.

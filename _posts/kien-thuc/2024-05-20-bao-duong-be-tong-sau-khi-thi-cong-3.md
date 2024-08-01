@@ -1,16 +1,16 @@
 ---
 layout: post
-title: "Bảo Dưỡng 2"
-h1-title: "Bảo Dưỡng 2"
-meta-title: "Bảo Dưỡng 2"
+title: "Bảo Dưỡng 3"
+h1-title: "Bảo Dưỡng 3"
+meta-title: "Bảo Dưỡng 3"
 meta-description: ""
 meta-keywords: "bảo dưỡng bê tông, bê tông thi công, kinh nghiệm bảo dưỡng bê tông thi công, thi công và bảo dưỡng bê tông, bảo dưỡng bê tông như thế nào"
 categories: tin-tuc
 category: "Kinh nghiệm"
 tags: bảo-dưỡng-bê-tông
-permalink: "/bao-duong-be-tong-sau-khi-thi-cong-2.html"
-published: true
-sitemap: true
+permalink: "/bao-duong-be-tong-sau-khi-thi-cong-3.html"
+published: false
+sitemap: false
 toc: true
 image: "/construction/images/projects/3.jpg"
 date: 2024-05-20 00:30:00
