@@ -16,8 +16,23 @@
 	
 	</script>
 
-	<script>
+	<!--script>
   (function (w,i,d,g,e,t,s) {w[d] = w[d]||[];t= i.createElement(g);
     t.async=1;t.src=e;s=i.getElementsByTagName(g)[0];s.parentNode.insertBefore(t, s);
   })(window, document, '_gscq','script','//widgets.getsitecontrol.com/120238/script.js');
-</script>
+</script-->
+
+	<!-- ADD-ONS JS FILES -->
+	<script>
+		// Current Date
+		var weekday = ["Chủ Nhật","Thứ Hai","Thứ Ba","Thứ Tư","Thứ Năm","Thú Sáu","Thứ Bảy"],
+			month = ["Tháng 1", "Tháng 2", "Tháng 3", "Tháng 4", "Tháng 5", "Tháng 6", "Tháng 7", "Tháng 8", "Tháng 9", "Tháng 10", "Tháng 11", "Tháng 12"],
+			a = new Date();
+
+			document.querySelector('.date-today span').innerHTML = weekday[a.getDay()] + ', ' + a.getDate() +' '+ month[a.getMonth()] ;
+
+		jQuery('.dark-mode').on( 'click', function() {
+		    jQuery("body").toggleClass('dark');
+		    return false;
+		});
+	</script>
