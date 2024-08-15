@@ -7,12 +7,12 @@ url: ""
 # url: ""
 baseurl: ""
 phone: "+84978383555"
-allow_search_engine: false
+allow_search_engine: true
 # paypal: ""
 google_verify: ""
 bing_verify: 
 google_analytics: ""
-google_tag_manager_id: ""
+google_tag_manager_id: "G-6J50BRBSZS"
 google_plus: 
 subcriber_url: ""
 # Build Settings
