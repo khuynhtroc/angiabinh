@@ -36,3 +36,22 @@
 		    return false;
 		});
 	</script>
+
+<!--script type="text/javascript">
+	// catch every click on the page
+document.addEventListener("click", e => {
+  const target = e.target;
+  if (target.tagName === 'A' && target.href.indexOf("{{ site.url }}") !== -1) {
+    // prevent the <a> tag from navigating
+    e.preventDefault();
+    const lastSlash = target.href.lastIndexOf('/');
+    if (lastSlash > 0) {
+      const variable = target.href.substring(lastSlash + 1);
+      // use the commented code below, or a window.open
+      //location.href = "https://myaffiliatelink.com/"+variable;
+      // for demonstration
+      console.log("https://myaffiliatelink.com/" + variable);
+    }
+  }
+})
+</script-->
