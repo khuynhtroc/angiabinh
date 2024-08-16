@@ -15,8 +15,11 @@ redirect_from:
 					<div class="container">
 						<div class="row align-items-center">
 							<div class="col-12 col-lg">
-								<h3 style="letter-spacing: 2px;">“Bê tông chất lượng cao, đúng tiến độ, giá cạnh tranh”</h3>
-								<span>Bê Tông An Gia Bình luôn hướng tới khách hàng bằng những nỗ lực cao nhất để thực hiện cam kết là sự hài lòng trong từng sản phẩm và dịch vụ</span>
+								
+								<blockquote>
+									<h3>“Bê tông chất lượng cao, đúng tiến độ, giá cạnh tranh”</h3>
+								<span style="font-style: italic;">Bê Tông An Gia Bình luôn hướng tới khách hàng bằng những nỗ lực cao nhất để thực hiện cam kết là sự hài lòng trong từng sản phẩm và dịch vụ</span>
+							</blockquote>
 							</div>
 							<div class="col-12 col-lg-auto mt-4 mt-lg-0">
 								<a href="/lien-he/" class="button button-large button-circle button-black m-0">LIÊN HỆ</a>
@@ -283,7 +286,7 @@ redirect_from:
 									<a href="{{ site.url }}{{ post.url }}"><img src="{{ site.url }}{{ post.image }}" alt="{{ post.title }}" style="height:200px;"></a>
 								</div>
 								<div class="entry-title">
-									<h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
+									<h3><a href="{{ post.url }}">{{ post.title | strip_html | truncatewords: 10 }}</a></h3>
 								</div>
 								<div class="entry-content">
 									<p>{{ post.content | strip_html | truncatewords: 30 }}</p>

@@ -47,7 +47,7 @@ future: true
 
 gems:
   - jekyll-redirect-from
-  #- jekyll-paginate
+  - jekyll-paginate
   - jekyll-seo-tag
   - jekyll-toc
   # - jekyll-related-posts
