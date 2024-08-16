@@ -17,7 +17,7 @@ date: 2024-08-04 00:30:00
 author: "Trọng Huỳnh"
 ---
 
-Bảo dưỡng bê tông là việc làm cần thiết sau quá trình đổ bê tông. Nó giúp cho chất lượng công trình luôn tốt nhất, bền bỉ nhất. Chất lượng công trình là điểm cốt lõi để quyết định xem công trình đó có hoàn hảo hay không. Trong bài viết này, hãy cùng Bê Tông An Gia Bình tìm hiểu cách bảo dưỡng bê tông, thời gian đông cứng của bê tông một cách chính xác nhất.
+Bảo dưỡng bê tông là việc làm cần thiết sau quá trình đổ bê tông. Nó giúp cho chất lượng công trình luôn tốt nhất, bền bỉ nhất. Chất lượng công trình là điểm cốt lõi để quyết định xem công trình đó có hoàn hảo hay không. Trong bài viết này, hãy cùng Bê Tông An Gia Bình tìm hiểu cách bảo dưỡng bê tông, thời gian đông cứng của bê tông một cách chính xác nhất..
 
 ## 1. Bảo dưỡng bê tông đúng cách
 
