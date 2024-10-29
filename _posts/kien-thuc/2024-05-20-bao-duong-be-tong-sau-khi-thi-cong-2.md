@@ -5,7 +5,7 @@ h1-title: "Bảo Dưỡng 2"
 meta-title: "Bảo Dưỡng 2"
 meta-description: ""
 meta-keywords: "bảo dưỡng bê tông, bê tông thi công, kinh nghiệm bảo dưỡng bê tông thi công, thi công và bảo dưỡng bê tông, bảo dưỡng bê tông như thế nào"
-categories: tin-tuc
+categories: tin-tuc blog
 category: "Kinh nghiệm"
 tags: bảo-dưỡng-bê-tông
 permalink: "/bao-duong-be-tong-sau-khi-thi-cong-2.html"
