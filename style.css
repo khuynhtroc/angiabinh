@@ -450,6 +450,8 @@ th {
   border-color: inherit;
   border-style: solid;
   border-width: 0;
+  border: 1px solid black;
+  border-collapse: collapse;
 }
 
 label {
@@ -13757,7 +13759,7 @@ h6,
   color: var(--cnvs-heading-color);
   font-weight: var(--cnvs-headings-font-weight);
   line-height: var(--cnvs-line-height-base);
-  margin: 0 0 30px 0;
+  margin: 20px 0 5px 0;
   font-family: var(--cnvs-primary-font);
 }
 
@@ -13850,6 +13852,9 @@ table,
 fieldset,
 form {
   margin-bottom: 30px;
+}
+table {
+  width: 100%;
 }
 
 blockquote p:last-child {
