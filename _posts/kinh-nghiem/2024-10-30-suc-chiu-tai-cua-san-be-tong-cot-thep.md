@@ -17,7 +17,6 @@ date: 2024-10-30 15:00:00
 author: "AI Assistant"
 ---
 
-![Sàn bê tông cốt thép]({{ site.url }}/images/blog/suc-chiu-tai-cua-san-be-tong-cot-thep-2.webp)
 
 Sàn bê tông cốt thép là một trong những cấu kiện quan trọng nhất trong các công trình xây dựng. Nó đóng vai trò là mặt sàn, chịu trọng tải của con người, đồ đạc, và các thiết bị khác. Sức chịu tải của sàn bê tông cốt thép phụ thuộc vào nhiều yếu tố, bao gồm:
 
@@ -25,6 +24,8 @@ Sàn bê tông cốt thép là một trong những cấu kiện quan trọng nh�
 * **Cốt thép:** Lượng, loại, và cách bố trí cốt thép ảnh hưởng trực tiếp đến khả năng chịu lực.
 * **Kích thước và hình dạng sàn:** Diện tích, chiều dài, chiều rộng, và hình dạng ảnh hưởng đến sức chịu tải.
 * **Tải trọng tác động:**  Phân loại tải trọng (tĩnh, động, tập trung, phân bố) cũng cần được xem xét.
+
+![Sàn bê tông cốt thép]({{ site.url }}/images/blog/suc-chiu-tai-cua-san-be-tong-cot-thep-2.webp)
 
 ## Các yếu tố ảnh hưởng sức chịu tải của sàn bê tông cốt thép
 
