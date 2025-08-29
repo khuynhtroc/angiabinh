@@ -73,10 +73,10 @@ Do nhu cầu sử dụng gạch bê tông khí chưng áp ở nước ta chưa c
 Gạch bê tông khí chưng áp AAC với nhiều tính năng hiện đại, trọng lượng nhẹ, thân thiện với môi trường đang dần được sử dụng ngày một nhiều hơn tại Việt Nam. Nếu có nhu cầu mua gạch AAC để xây dựng công trình, bạn liên hệ với Bê tông An Gia Bình để được tư vấn nhé!
 
 Nội dung bài viết:
-- Nhu cầu sử dụng gạch bê tông khí chưng áp AAC
-- Ưu nhược điểm của gạch bê tông khí chưng áp
-- Ưu điểm
-- Nhược điểm
-- Ứng dụng đa dạng của gạch AAC trong cuộc sống
-- Nên mua gạch bê tông khí chưng áp ở đâu?
-- Kết luận
+- Nhu cầu sử dụng gạch bê tông khí chưng áp AAC.
+- Ưu nhược điểm của gạch bê tông khí chưng áp.
+- Ưu điểm.
+- Nhược điểm.
+- Ứng dụng đa dạng của gạch AAC trong cuộc sống.
+- Nên mua gạch bê tông khí chưng áp ở đâu?.
+- Kết luận.
