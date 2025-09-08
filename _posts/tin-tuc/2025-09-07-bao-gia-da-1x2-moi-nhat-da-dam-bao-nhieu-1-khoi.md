@@ -5,8 +5,8 @@ h1-title: "Báo giá đá 1×2 mới nhất | Đá dăm bao nhiêu 1 khối?"
 meta-title: "Báo giá đá 1×2 mới nhất | Đá dăm bao nhiêu 1 khối?"
 meta-description: "Đá 1x2 là một trong những loại đá xây dựng không thể thiếu đối với các công trình. Đặc biệt là các dự án đòi hỏi độ cứng cáp, chắc chắn khi đúc trụ bê tông"
 meta-keywords: "bao gia da 1x2 moi nhat"
-categories: kien-thuc blog
-category: "Kiến thức"
+categories: tin-tuc blog
+category: "Tin tức"
 tags: bao-gia-da-1x2-moi-nhat-da-dam-bao-nhieu-1-khoi
 permalink: "/bao-gia-da-1x2-moi-nhat-da-dam-bao-nhieu-1-khoi.html"
 published: true
@@ -17,37 +17,14 @@ date: 2025-09-07 00:30:00
 author: "Trọng Huỳnh"
 ---
 
-![Ảnh đại diện]({{ site.url }}/images/blog/2025-09-07-bao-gia-da-1x2-moi-nhat-da-dam-bao-nhieu-1-khoi-1.jpg)
-
-Tin tứcVật liệu xây dựngXây dựng14/11/2023 14:351450- 
-- 
-- 
-- 
-- 
-- 
-- 
-- 
-
-Nội dung bài viết- Đá 1×2 là gì?
-- Giá đá 1×2 cập nhật mới 08/2025
-- Trọng lượng riêng của đá 1×2 trên thực tế
-- 1 khối đá 1×2 bằng bao nhiêu kg?
-- 1 khối đá 1×2 bằng bao nhiêu thùng?
-- 1 tấn đá 1×2 bằng bao nhiêu m3?
-- Tiêu chuẩn đá 1×2
-- Các loại đá 1×2
-- Đá 1×2 xanh
-- Đá 1×2 đen
-- Đá 1×2 trắng
-- Ứng dụng đá 1×2
-
-Đá 1×2là một trong những loại đá xây dựng không thể thiếu đối với các công trình. Đặc biệt là các dự án đòi hỏi độ cứng cáp, chắc chắn khi đúc trụ bê tông hoặc thực hiện các công trình xây dựng khác. Nắm được chính xácgiá đá 1×2giúp khách hàng có thể tiết kiệm được nhiều chi phí.
+Đá 1×2 là một trong những loại đá xây dựng không thể thiếu đối với các công trình. Đặc biệt là các dự án đòi hỏi độ cứng cáp, chắc chắn khi đúc trụ bê tông hoặc thực hiện các công trình xây dựng khác. Nắm được chính xác giá đá 1×2 giúp khách hàng có thể tiết kiệm được nhiều chi phí.
 
 ## Đá 1×2 là gì?
 
 Đá 1×2 là loại đá xây dựng được sử dụng phổ biến. Đá được cắt nhỏ từ máy nghiền đá 1×2, cho ra nhiều kích thước đá khác nhau. Tùy vào mục đích sử dụng mà lựa chọn loại đá cho phù hợp.
 
 ![da-1-x-2-tp-hcm]({{ site.url }}/images/blog/2025-09-07-bao-gia-da-1x2-moi-nhat-da-dam-bao-nhieu-1-khoi-2.jpg)
+
 Có thể đánh giá đây là loại đá quan trọng và cần thiết cho mọi công trình xây dựng. Đặc biệt là các công trình quy mô lớn hoặc các tòa nhà, ngôi nhà cần nền móng, trụ cột chắc chắn, thì không thể bỏ qua đá 1×2.
 
 ## Giá đá 1×2 cập nhật mới 08/2025
@@ -75,7 +52,7 @@ Dựa vào bảng báo giá trên đây sẽ cung cấp được thông tin đá
 
 Trước khi lựa chọn nguyên liệu đá 1×2 cho công trình của mình, quý khách hàng sẽ được các nhân viên gửi báo giá đá 1×2 qua email hoặc văn bản. Trong báo giá sẽ thể hiện rõ chi tiết giá của từng loại đá, sẽ giúp khách hàng biết 1 khối đá 1×2 bằng bao nhiêu tiền.
 
-Mỗi thời kỳ, giá đá bê tông đá 1×2 và đá 2×4 cũng sẽ khác nhau. Bê tông Việt Đức sẽ cung cấp giá đá 1×2 hôm nay mới nhất cho quý khách hàng, để khách hàng có thể tham khảo và lựa chọn.
+Mỗi thời kỳ, giá đá bê tông đá 1×2 và đá 2×4 cũng sẽ khác nhau. Bê tông An Gia Bình sẽ cung cấp giá đá 1×2 hôm nay mới nhất cho quý khách hàng, để khách hàng có thể tham khảo và lựa chọn.
 
 ## Trọng lượng riêng của đá 1×2 trên thực tế
 
@@ -110,17 +87,20 @@ Nếu biết được cách quy đổi đá 1×2 từ khối sang kg thì hoàn 
 Loại đá này thường được sử dụng phổ biến trong các công trình xây dựng. Đá có thể được sử dụng để trộn với xi măng tạo thành trụbê tôngđá 1×2, giúp cho các công trình được trở nên chắc chắn.Ngoài ra, một số công trình kiến trúc vẫn sử dụng đá 1×2 xanh để làm đá nền cho sân vườn, các khu vực có diện tích rộng như sân vận động, sân vườn,…
 
 ![da-1-x-2-dong-nai]({{ site.url }}/images/blog/2025-09-07-bao-gia-da-1x2-moi-nhat-da-dam-bao-nhieu-1-khoi-3.jpg)
+
 ### Đá 1×2 đen
 
 Đá đen 1×2 là loại đá dăm có giá cả hợp lý, chất lượng tương tự đá 1×2 xanh. Chính vì vậy cũng được rất nhiều người lựa chọn cho các công trình của mình. Đá 1×2 đen thông thường được hình thành từ những tảng đá lớn sau đó được cho vào máy xay và chia ra với các kích thước khác nhau.
 
 ![da-1-x-2-da-nang]({{ site.url }}/images/blog/2025-09-07-bao-gia-da-1x2-moi-nhat-da-dam-bao-nhieu-1-khoi-4.jpg)
-Đá 1×2 đen được sử dụng nhiều cho các công trình xây dựng nền móng, bê tông### Đá 1×2 trắng
+
+### Đá 1×2 trắng
 
 Loại đá này thường được sử dụng làm đá trang trí là phổ biến. Với màu trắng nổi bật, đá giúp trang trí sân vườn, hồ cá, cây cảnh,… Thành phần đá 1×2 sẽ bao gồm các hạt đá được hình thành từ đá nguyên khối.Loại đá này có nhiều kích thước khác nhau để đáp ứng nhu cầu của khách hàng. Tùy thuộc vào mục đích sử dụng để lựa chọn kích thước đá phù hợp.
 
 ![da-1-x-2-binh-duong]({{ site.url }}/images/blog/2025-09-07-bao-gia-da-1x2-moi-nhat-da-dam-bao-nhieu-1-khoi-5.jpg)
-Đá 1×2 trắng dùng nhiều cho trang trí nhà cửa## Ứng dụng đá 1×2
+
+## Ứng dụng đá 1×2
 
 Đá dăm 1×2 được sử dụng rất nhiều hiện nay, chính vì vậy tính ứng dụng của nó rất nhiều trong đời sống. Một số ứng dụng của đá dăm 1×2 có thể kể đến ở dưới đây.
 
@@ -130,28 +110,18 @@ Loại đá này thường được sử dụng làm đá trang trí là phổ b
 - Dùng trang trí hồ cá.
 - Dùng làm đường bê tông.
 
->>> Xem thêm:Tổng hợp bảng giá đá mi bụi tốt nhất trên thị trường hiện nay
-
 Đá 1×2 là loại đá sử dụng phổ biến trong xây dựng và đời sống. Quý khách hàng cần lựa chọn đơn vị cung cấp đá dăm 1×2 uy tín, giá đá 1×2 phải chăng để có thể có số lượng đá tốt và chắc chắn nhất.
 
-Chia sẻ
-
-- 
-- 
-- 
-- 
-- 
-- 
-- 
-- 
-- Đã sao chép
-- 
-
-window.addEventListener('load', function(){
-        document.querySelector('.other-share').addEventListener('click', function(){
-            var title = 'bao-gia-da-1x2-moi-nhat-da-dam-bao-nhieu-1-khoi';
-            var text = '';
-            var url = 'https://betong.net.vn/gia-da-1x2/';
-            navigator.share({title, text, url});
-        });
-    });
+Nội dung bài viết:
+- Đá 1×2 là gì?
+- Giá đá 1×2 cập nhật mới 08/2025
+- Trọng lượng riêng của đá 1×2 trên thực tế
+- 1 khối đá 1×2 bằng bao nhiêu kg?
+- 1 khối đá 1×2 bằng bao nhiêu thùng?
+- 1 tấn đá 1×2 bằng bao nhiêu m3?
+- Tiêu chuẩn đá 1×2
+- Các loại đá 1×2
+- Đá 1×2 xanh
+- Đá 1×2 đen
+- Đá 1×2 trắng
+- Ứng dụng đá 1×2
